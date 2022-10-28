@@ -1,0 +1,560 @@
+@media screen and (max-width: 1980px){
+    .player{
+        width: 90%;
+    }
+
+    .player6{
+        width: 52%;
+    }
+
+    .infos{
+        margin-left: 10%;
+    }
+
+    #escudo, #escudo-ar{
+        width: 95%;
+    }
+
+    .logo{
+        width: 5%;
+    }
+
+    .player3{
+        width: 90%;
+    }
+
+    .player4{
+        width: 95%;
+    }
+
+    .player5{
+        width: 80%;
+    }
+
+    
+}
+
+@media screen and (max-width: 1500px){
+    @media screen and (max-height: 1700px){
+        .pginicial{
+            height: 115vh;
+        }
+    }
+}
+
+@media screen and (max-width: 1500px){
+    .escudo{
+        width: 60%;
+    }
+
+    .cont{
+        width: 60%;
+    }
+
+    #escudo{
+        margin-top: 30%;
+    }
+
+    .cont h1{
+        font-size: 3rem;
+    }
+
+    .infos{
+        width: 30%;
+    }
+
+    .player{
+        width: 90%;
+    }
+
+    .player3{
+        width: 90%;
+    }
+
+    .player4{
+        width: 130%;
+    }
+
+    .player5{
+        width: 70%;
+    }
+
+    .player6{
+        width: 82%;
+    }
+
+    .c2 img{
+        width: 100%;
+    }
+
+    .camisas{
+        height: 60vh;
+    }
+
+    .camisas h1{
+        font-size: 2rem;
+    }
+
+    .logo{
+        width: 6.5%;
+    }
+
+    .cetr{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 1350px){
+    .escudo{
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .logo{
+        width: 8%;
+    }
+
+    .player{
+        width: 60%;
+    }
+
+    .player6{
+        width: 52%;
+    }
+
+    .player3{
+        width: 81%;
+    }
+
+    .player4{
+        width: 90%;
+    }
+
+    .player5{
+        width: 40%;
+    }
+
+    #escudo, #escudo-ar{
+        width: 40%;
+        margin: 0%;
+    }
+
+    .titulo h1{
+        margin-top: 10%;
+        font-size: 5rem;
+    }
+
+    .menuzin{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 10px;
+    }
+
+    .button{
+        width: 60%;
+        margin: auto;
+    }
+
+    .cont{
+        margin-top: 5%;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .menuzin{
+        margin-right: 0%;
+    }
+
+    .itens2{
+        height: 8vh;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (max-height: 500px){
+    .itens2{
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 1050px){
+    .camisas{
+        height: 30vh;
+    }
+
+    .player{
+        width: 75%;
+    }
+
+    .player5{
+        width: 45%;
+    }
+
+    .player3{
+        width: 96%;
+    }
+
+    .player4{
+        width: 100%;
+    }
+
+    .player6{
+        width: 67%;
+    }
+
+    .titulo h1{
+        font-size: 3.8rem;
+    }
+}
+@keyframes linkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.mobile-menu.active .line1 {
+    transform: rotate(-45deg) translate(-8px, 8px);
+}
+  
+.mobile-menu.active .line2 {
+    opacity: 0;
+}
+  
+.mobile-menu.active .line3 {
+    transform: rotate(45deg) translate(-5px, -7px);
+}
+
+@media screen and (max-width: 1250px){
+    #navbar-itens{
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 50vw;
+        height: 40vh;
+        background: #AF0B0B;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+        font-size: 1rem;
+        opacity: 0.8;
+    }
+
+    #navbar-itens li{
+        margin-left: 0;
+        opacity: 0;
+    }
+
+    a{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icon{
+        width: 3rem;
+    }
+
+    .mobile-menu{
+        display: block;
+    }
+
+
+}
+
+@media screen and (max-height: 750px) and (max-width: 1250px){
+    #navbar-itens{
+        font-size: 0.9rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    @media screen and (max-width: 880px) {
+        #navbar-itens{
+            width: 98vw;
+        }
+    }
+
+    @media screen and (max-height: 450px) {
+        #navbar-itens{
+            height: 60vh;
+        }
+    }
+
+    @media screen and (max-height: 290px) {
+        #navbar-itens{
+            grid-template-columns: repeat(4, 1fr);
+            font-size: 0.8rem;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .player{
+        width: 95%;
+    }
+
+    .player6{
+        width: 87%;
+    }
+
+    .player5{
+        width: 55%;
+    }
+
+    .player3{
+        width: 120%;
+    }
+
+    .player4{
+        width: 130%;
+    }
+
+    .itens2{
+        height: 10vh;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .cetr{
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 20%;
+        padding-bottom: 5%;
+    }
+
+    .logo{
+        width: 10%;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .itens2{
+        height: 15vh;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .logo{
+        width: 13%;
+    }
+
+    .infos{
+        width: 100%;
+        float: none;
+        display: flex;
+        align-items: center;
+        margin: auto;
+        justify-content: center;
+    }
+
+    .jogador{
+        width: 100%;
+        float: none;
+        display: flex;
+        align-items: center;
+        margin: auto;
+        justify-content: center;
+        margin-top: 10%;
+    }
+
+    .player{
+        width: 50%;
+    }
+
+    .player6{
+        width: 42%;
+    }
+
+    .player5{
+        width: 30%;
+    }
+
+    .player3{
+        width: 60%;
+    }
+
+    .player4{
+        width: 67%;
+    }
+
+    .info h2{
+        margin-top: 10%;
+        font-size: 1.8rem;
+    }
+
+    .camisas h1{
+        font-size: 1.5rem;
+    }
+
+    .titulo h1{
+        font-size: 3rem;
+        margin-top: 15%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .cont h1{
+        font-size: 2rem;
+    }
+
+    .camisas h1{
+        font-size: 1rem;
+    }
+
+    .titulo h1{
+        font-size: 2rem;
+        margin-top: 30%;
+    }
+
+    .logo{
+        width: 17%;
+    }
+
+    .cetr{
+        grid-template-columns: repeat(1, 1fr);
+        padding-bottom: 10%;
+        padding-top: 20%;
+    }
+
+    .pginicial{
+        height: 230vh;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .cetr{
+        padding-top: 30%;
+    }
+
+}
+
+@media screen and (max-height:1200px){
+    .itens2{
+        height: 15vh;
+    }
+}
+
+@media screen and (max-height:800px){
+    .itens2{
+        height: 30vh;
+    }
+
+    .cetr{
+        margin-top: 10%;
+        padding-bottom: 6%;
+    }
+
+    
+}
+
+@media screen and (max-height:500px){
+    .itens2{
+        height: 45vh;
+    }
+}
+
+@media screen and (max-height:500px) and (max-width:1350px){
+    .itens2{
+        height: 25vh;
+    }
+}
+
+@media screen and (max-height:500px) and (max-width:1350px){
+    .itens2{
+        height: 50vh;
+    }
+}
+
+@media screen and (max-height:500px) and (max-width:1000px){
+    .itens2{
+        height: 55vh;
+    }
+}
+
+@media screen and (max-height:1200px) and (max-width:700px){
+    .itens2{
+        height: 60vh;
+    }
+}
+
+@media screen and (max-height:500px) and (max-width:700px){
+    .itens2{
+        height: 85vh;
+    }
+}
+
+@media screen and (max-height:937px){
+    @media screen and (min-height:920px){
+        @media screen  and (max-width:1885px){
+            @media screen and (min-width: 1870px){
+                .cont h1{
+                    font-size: 3rem;
+                }
+        
+                .titulo h1{
+                    font-size: 4rem;
+                }
+        
+                .infos h2{
+                    font-size: 1.4rem;
+                }
+        
+                .player{
+                    width: 43%;
+                }
+
+                .player3{
+                    width: 63%;
+                }
+
+                .player4{
+                    width: 77%;
+                }
+
+                .player5{
+                    width: 43%;
+                }
+
+                .player6{
+                    width: 34%;
+                }
+        
+                #escudo, #escudo-ar{
+                    width: 90%;
+                }
+        
+                .conteudo{
+                    height: 60vh;
+                }
+        
+                .camisas h1{
+                    font-size: 2.8rem;
+                }
+        
+                .c2 img{
+                    width: 90%;
+                }
+        
+                .camisas{
+                    margin-top: 3%;
+                }
+    
+                .itens2{
+                    height: 7vh;
+                }
+
+                .pginicial{
+                    height: 87vh;
+                    margin-top: 4.23%;
+                }
+            }
+    
+        }
+    }
+}

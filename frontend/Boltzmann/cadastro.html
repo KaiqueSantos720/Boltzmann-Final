@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cadastro.css">
+    <link rel="stylesheet" href="css/header.css">
+    <title>Login</title>
+</head>
+<body>
+    <nav id="navbar">
+        <div id="navbar-container">
+            <img src="icons/logo-vermelha.png" class="logo" alt="">
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul id="navbar-itens">
+                <li><a href="">Buraco Negro</a></li>
+                <li><a href="">Superterra</a></li>
+                <li><a href="">Terra</a></li>
+                <li><a href="">Teoria das Cordas</a></li>
+                <li><a href="">Astrônomos</a></li>
+                <li><a href="">Fórum</a></li>
+                <li><a href=""><img class="icon" src="icons/iconouser.png" alt=""></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="all">
+        <div class="container">
+            <div class="header">
+                <h2>Crie uma Conta</h2> 
+            </div>
+    
+            <form id="form" class="form">
+    
+                <div class="controle-form">
+                    <label for="username">Nome de Usuário</label>
+                    <input type="text" id="username" placeholder="Digite seu nome de usuário">
+                    <i class="fas fa-exclamation-circle"></i> 
+                    <i class="fas fa-check-circle"></i>
+                    <small>Mensagem de Erro</small>
+                </div>
+    
+                <div class="controle-form">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" placeholder="Digite seu email">
+                    <i class="fas fa-exclamation-circle"></i> 
+                    <i class="fas fa-check-circle"></i>
+                    <small>Mensagem de Erro</small>
+                </div>
+    
+                <div class="controle-form">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" placeholder="Digite sua senha">
+                    <i class="fas fa-exclamation-circle"></i> 
+                    <i class="fas fa-check-circle"></i>
+                    <small>Mensagem de Erro</small>
+                </div>
+    
+                <div class="controle-form">
+                    <label for="password-con">Confirme sua Senha</label>
+                    <input type="password" id="password-con" placeholder="Confirme sua senha">
+                    <i class="fas fa-exclamation-circle"></i> 
+                    <i class="fas fa-check-circle"></i>
+                    <small>Mensagem de Erro</small>
+                </div>
+    
+                <button type="submit">Criar Conta</button>
+    
+            </form>
+        </div>
+    </div>
+
+
+    <script src="scripts/cadastro.js"></script>
+    <script src="scripts/nav-mobile.js"></script>
+    <script src="https://kit.fontawesome.com/5fe6404bdc.js" crossorigin="anonymous"></script>
+</body>
+</html>

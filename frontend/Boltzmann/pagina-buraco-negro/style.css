@@ -1,0 +1,781 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: garamond;
+}
+
+body{
+    background: #040c8e;
+}
+
+.headline{
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+    word-break: break-all;
+}
+
+
+.icon{
+    width: 3rem;
+}
+
+#navbar{
+    width: 100%;
+    background: linear-gradient(to left, #91000f, #42020c);
+    color: black;
+    height: 80px;
+    position: fixed;
+    z-index: 10;
+}
+
+
+#navbar-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.logo{
+    font-size: 3rem;
+    width: 12rem;
+}
+
+#pg:hover{
+    cursor: pointer;
+}
+
+#navbar-itens{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-transform: uppercase; 
+}
+
+#navbar-itens li{
+    padding: 10px;
+}
+
+#navbar-itens a{
+    color: #131313;
+    position: relative;
+}
+
+#navbar-itens a::after{
+    content: "";
+    width: 0%;
+    height: 1px;
+    background-color: #131313;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+#navbar-itens a:hover::after{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.mobile-menu div{
+    width: 32px;
+    height: 2px;
+    background: #131313;
+    margin: 8px;
+}
+
+.mobile-menu{
+    cursor: pointer;
+    display: none;
+}
+
+#navbar-itens.active{
+    transform: translateX(0);
+}
+
+#navbar-itens a{
+    transition: all .3s;
+}
+
+#navbar-itens a:hover{
+    transition: all .3s;
+    border-bottom: 1.5px solid #131313;
+}
+
+input{
+    display: none;
+}
+
+
+
+.header{
+    background: #040c8e;
+    width: 100%;
+    position: relative;
+    top: 5rem;
+}
+
+.itens2{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 75%;
+    height: 5vh;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.itens2 li{
+    margin: auto;
+}
+
+
+.clube{
+    color: white;
+}
+
+.clube:hover{
+    cursor: pointer;
+}
+
+.escudo{
+    display: flex;
+    float: left;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+}
+
+#escudo{
+    width: 90%;
+    margin: auto;
+}
+
+.pginicial{
+    background: #040c8e;
+    height: 88.7vh;
+    width: 100%;
+    margin-top: 3.2%;
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo{
+    margin-top: 3%;
+    display: inline-block;
+    width: 100%;
+    height: 68vh;
+}
+
+.cont{
+    width: 70%;
+    float: right;
+}
+
+.cont h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1%;
+    color: white;
+    font-family: 'Imprint MT Shadow';
+    font-size: 5rem;
+}
+
+.menuzin{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-right: 3.5%;
+}
+
+.menuzin h3{
+    font-size: 3rem;
+}
+
+.infos{
+    display: flex;
+    flex-direction: column;
+    margin-left: 12%;
+    float: left;
+    width: 20%;
+}
+
+.infos h2{
+    margin-top: 3%;
+    color: white;
+}
+
+.button{
+    transition: all .3s ease;
+    color: white;
+    border: 2px black solid;
+    width: 150%;
+}
+
+.button h3{
+    display: flex;
+    justify-content: center;
+}
+
+.button:hover{
+    transition: all .3s ease;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.clube-info{
+    display: inline-block;
+    width: 100%;
+}
+
+.info h2{
+    margin-top: 15%;
+    font-size: 1.8rem;
+}
+
+.jogador{
+    margin: auto;
+    width: 40%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    float: right;
+    margin-right: 13%;
+    margin-top: 2.8%;
+}
+
+.player{
+    width: 67%;
+    margin: auto;
+    margin-top: 3%;
+}
+
+.player3{
+    width: 67%;
+    margin: auto;
+    margin-top: 3%;
+}
+
+.player2{
+    width: 67%;
+    margin: auto;
+    margin-top: 3%;
+}
+
+.player4{
+    width: 67%;
+    margin: auto;
+    margin-top: 3%;
+}
+
+.player5{
+    width: 67%;
+    margin: auto;
+    margin-top: 3%;
+}
+
+.player6{
+    width: 67%;
+    margin: auto;
+    margin-top: 3%;
+}
+
+.jogador h2{
+    margin: auto;
+    color: white;
+    font-size: 1.8rem;
+}
+
+.titulo h1{
+    display: flex;
+    justify-content: center;
+    font-size: 7rem;
+    margin-top: 5%;
+    color: white;
+}
+
+#bayern-munich, #chelsea-london, #internazionale-milan, #real-madrid, #tottenham-london, #city-manchester, #atletico-madrid, #arsenal-london, #milan-milan, #leipzig-leipzig, #united-manchester, #liverpool-liverpool{
+    display: none;
+}
+
+#camisas, #camisas2, #trofeus, #trofeus2, #camisas3, #trofeus3, #camisas4, #trofeus4, #camisas5, #trofeus5, #camisas6, #trofeus6, #camisas7, #trofeus7, #camisas8, #trofeus8, #camisas9, #trofeus9, #camisas10, #trofeus10, #camisas11, #trofeus11, #camisas12, #trofeus12{
+    display: none;
+}
+
+.camisas{
+    display: inline-block;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 40vh;
+    text-align: center;
+    
+}
+
+.camisas h2{
+    font-size: 1rem;
+    color: white;
+   
+}
+
+.c3, .c2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.c2 img{
+    width: 85%;
+}
+
+.uefa{
+    width: 55%;
+}
+
+.dfb{
+    width: 38.2%;
+}
+
+.buli{
+    width: 81%;
+}
+
+.premier{
+    width: 41.3%;
+}
+
+.fa{
+    width: 47.5%;
+}
+
+.cit{
+    width:59.5%;
+}
+
+.sa{
+    width: 55%;
+}
+
+.cdr{
+    width: 48.2%;
+}
+
+.ll{
+    width: 67%;
+}
+
+
+.button{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 0;
+    padding: 12px 0;
+    font-family: 'Inter';
+    font-size: 21px;
+    line-height: 28px;
+    font-weight: 300;
+    color: white;
+    border: 2px solid white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.item4{
+    border-color: #fff;
+}
+
+.item5{
+    border-color: #fff;
+}
+
+.item6{
+    border-color: white;
+}
+
+.item7{
+    border-color: #1d1b53;
+}
+
+.item8{
+    border-color: #fff;
+}
+
+.item11{
+    border-color: #fff;
+}
+
+.item12{
+    border-color: #fff;
+}
+
+.item, .item2, .item3, .item4{
+    position: relative;
+    overflow: hidden;
+    transition: .2s;
+}
+
+.item:hover{
+    background: #000;
+    box-shadow: 0 0 10px #fff, 0 0 15px #fff, 0 0 30px #fff ;
+    color: white;
+    border-color: white;
+    transition: .2s;
+}
+
+.item2:hover{
+    background: #dc052d;
+    box-shadow: 0 0 10px #fff, 0 0 15px #fff, 0 0 30px #fff;
+    color: white;
+    border-color: white;
+    transition: .2s;
+}
+
+.item4:hover{
+    background: #000;
+    box-shadow: 0 0 10px #fff, 0 0 15px #fff, 0 0 30px #fff ;
+    color: white;
+    border-color: white;
+    transition: .2s;
+}
+
+.item3:hover{
+    background: linear-gradient(to left,  black 16.7%, #011ea0 16.7% 33.3%, black 33.3% 50%, #011ea0 50% 66.6%, black 66.6% 83.3%, #011ea0 83.3% 100%);
+    box-shadow: 0 0 10px #011ea0, 0 0 15px #011ea0, 0 0 30px #011ea0;
+    color: white;
+    border-color: black;
+    transition: .2s;
+}
+
+.item5:hover{
+    background: #000;
+    box-shadow: 0 0 10px #fff, 0 0 15px #fff, 0 0 30px #fff ;
+    color: white;
+    border-color: white;
+    transition: .2s;
+}
+
+.item6:hover{
+    background: #000;
+    box-shadow: 0 0 10px #fff, 0 0 15px #fff, 0 0 30px #fff ;
+    color: white;
+    border-color: white;
+    transition: .2s;
+}
+
+.item7:hover{
+    background: #aa2522;
+    box-shadow: 0 0 10px #1d1b53, 0 0 15px #1d1b53, 0 0 30px #1d1b53;
+    color: #1d1b53;
+    border-color: #1d1b53;
+    transition: .2s;
+}
+
+.item8:hover{
+    background: #000;
+    box-shadow: 0 0 10px #fff, 0 0 15px #fff, 0 0 30px #fff ;
+    color: white;
+    border-color: white;
+    transition: .2s;
+}
+
+.item9:hover{
+    background: linear-gradient(to left,  black 16.7%, #e21c2a 16.7% 33.3%, black 33.3% 50%, #e21c2a 50% 66.6%, black 66.6% 83.3%, #e21c2a 83.3% 100%);
+    box-shadow: 0 0 10px #e21c2a, 0 0 15px #e21c2a, 0 0 30px #e21c2a;
+    color: white;
+    border-color: black;
+    transition: .2s;
+}
+
+.item10:hover{
+    background: linear-gradient(to left, #001f47, #dd0741);
+    box-shadow: 0 0 10px #dd0741, 0 0 15px #dd0741, 0 0 30px #dd0741;
+    color: white;
+    border-color: #dd0741;
+    transition: .2s;
+}
+
+.item11:hover{
+    background: #000;
+    box-shadow: 0 0 10px #fff, 0 0 15px #fff, 0 0 30px #fff ;
+    color: white;
+    border-color: white;
+    transition: .2s;
+}
+
+.item12:hover{
+    background: #000;
+    box-shadow: 0 0 10px #fff, 0 0 15px #fff, 0 0 30px #fff ;
+    color: white;
+    border-color: white;
+    transition: .2s;
+}
+
+
+
+@keyframes colors{
+    0%{
+        background-position: 0% 50%;
+    }
+
+    50%{
+        background-position: 100% 50%;
+    }
+
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+.timelogo{
+    width: 60%;
+    transition: all .3s ease;
+}
+
+.chelsea{
+    display: flex;
+    justify-content: center;
+}
+
+.timelogo:hover{
+    transition: all .3s ease;
+}
+
+.cetr{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 90%;
+    margin: auto;
+    grid-row-gap: 40px;
+    grid-column-gap: 40px;
+    transition: all .3s ease;
+}
+
+.equipes{
+    display: flex;
+    justify-content: center;
+}
+
+#chelsea{
+    background: black;
+    border: 2px solid #FF4500;
+    transition: all .3s ease;
+}
+
+#chelsea:hover{
+    background: black;
+    box-shadow: 0 0 10px #FF4500, 0 0 15px #FF4500, 0 0 30px #FF4500;
+    border-color: black;
+    transition: all .3s ease;
+    border-radius: 20px;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#internazionale{
+    background: linear-gradient(to left,  #011ea0 16.7%, black 16.7% 33.3%, #011ea0 33.3% 50%, black 50% 66.6%, #011ea0 66.6% 83.3%, black 83.3% 100%);
+    border: 2px solid black;
+    transition: all .3s ease;
+}
+
+#internazionale:hover{
+    background: linear-gradient(to left,  black 16.7%, #011ea0 16.7% 33.3%, black 33.3% 50%, #011ea0 50% 66.6%, black 66.6% 83.3%, #011ea0 83.3% 100%);
+    box-shadow: 0 0 10px black, 0 0 15px #011ea0, 0 0 30px #011ea0;
+    border-color:#011ea0;
+    transition: all .3s ease;
+    border-radius: 20px;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#city{
+    background: #97c1e7;
+    border: 2px solid #6caddf;
+    transition: all .3s ease;
+}
+
+#city:hover{
+    background: #6caddf;
+    box-shadow: 0 0 10px #6caddf, 0 0 15px #6caddf, 0 0 30px #6caddf;
+    border-color:#6caddf;
+    transition: all .3s ease;
+    border-radius: 20px;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#united{
+    background: #ffe500;
+    border: 2px solid #d8040b;
+    transition: all .3s ease;
+}
+
+#united:hover{
+    background: #d8040b;
+    box-shadow: 0 0 10px #d8040b, 0 0 15px #d8040b, 0 0 30px #d8040b;
+    border-color:#000;
+    transition: all .3s ease;
+    border-radius: 20px;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#tottenham{
+    background: white;
+    border: 2px solid #132257;
+    transition: all .3s ease;
+}
+
+#tottenham:hover{
+    background: white;
+    box-shadow: 0 0 10px white, 0 0 15px white, 0 0 30px white;
+    border-color:white;
+    transition: all .3s ease;
+    border-radius: 20px;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#arsenal{
+    background: #ee1a2f;
+    border: 2px solid white;
+    transition: all .3s ease;
+}
+
+#arsenal:hover{
+    background: #ee1a2f;
+    box-shadow: 0 0 10px #ee1a2f, 0 0 15px #ee1a2f, 0 0 30px #ee1a2f;
+    border-color:#ee1a2f;
+    transition: all .3s ease;
+    border-radius: 20px;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#real{
+    background: #fcb424;
+    border: 2px solid white;
+    transition: all .3s ease;
+}
+
+#real:hover{
+    background: white;
+    box-shadow: 0 0 10px #fcb424, 0 0 15px #fcb424, 0 0 30px #fcb424;
+    border-color:#fcb424;
+    transition: all .3s ease;
+    border-radius: 20px;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#atleti{
+    background: linear-gradient(to left, #aa2522 14.3%, white 14.3% 28.6%, #aa2522 28.6% 42.8%, white 42.8% 57.1%, #aa2522 57.1% 71.4%, white 71.4% 85.7%, #aa2522 85.7% 100%);
+    border: 2px solid #aa2522;
+    transition: all .3s ease;
+}
+
+#atleti:hover{
+    background: linear-gradient(to left, white 14.3%, #aa2522 14.3% 28.6%, white 28.6% 42.8%, #aa2522 42.8% 57.1%, white 57.1% 71.4%, #aa2522 71.4% 85.7%, white 85.7% 100%);
+    box-shadow: 0 0 10px #aa2522, 0 0 15px #aa2522, 0 0 30px #aa2522;
+    border-color:#aa2522;
+    transition: all .3s ease;
+    border-radius: 20px;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#milan{
+    background: linear-gradient(to left,  black 16.7%, #e21c2a 16.7% 33.3%, black 33.3% 50%, #e21c2a 50% 66.6%, black 66.6% 83.3%, #e21c2a 83.3% 100%);
+    border: 2px solid black;
+    transition: all .3s ease;
+}
+
+#milan:hover{
+    background: linear-gradient(to left,  #e21c2a 16.7%, black 16.7% 33.3%, #e21c2a 33.3% 50%, black 50% 66.6%, #e21c2a 66.6% 83.3%, black 83.3% 100%);
+    box-shadow: 0 0 10px #e21c2a, 0 0 15px #e21c2a, 0 0 30px #e21c2a;
+    border-color:black;
+    transition: all .3s ease;
+    border-radius: 20px;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#leipzig{
+    background: linear-gradient(to left,  white, #dd0741,  #001f47);
+    border: 2px solid #dd0741;
+    transition: all .3s ease;
+    background-size: 300% 300%;
+    animation: colors 15s ease infinite;
+}
+
+#leipzig:hover{
+    background: linear-gradient(to left,  white, #dd0741,  #001f47);
+    box-shadow: 0 0 10px #dd0741, 0 0 15px #dd0741, 0 0 30px #dd0741;
+    border-color:#dd0741;
+    transition: all .3s ease;
+    border-radius: 20px;
+    cursor: pointer;
+    transform: scale(1.1);
+    background-size: 300% 300%;
+    animation: colors 15s ease infinite;
+}
+
+#bayern{
+    background: #dc052d;
+    border: 2px solid #0066b2;
+    transition: all .3s ease;
+}
+
+#bayern:hover{
+    background: #dc052d;
+    box-shadow: 0 0 10px #dc052d, 0 0 15px #dc052d, 0 0 30px #dc052d;
+    border-color:white;
+    transition: all .3s ease;
+    border-radius: 20px;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#liverpool{
+    background: rgb(19, 19, 19);
+    border: 2px solid #d1202a;
+    transition: all .3s ease;
+}
+
+#liverpool:hover{
+    background: black;
+    box-shadow: 0 0 10px #d1202a, 0 0 15px #d1202a, 0 0 30px #d1202a;
+    border-color:#d1202a;
+    transition: all .3s ease;
+    border-radius: 20px;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background: black;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 20px;
+    border: 3px solid black;
+}

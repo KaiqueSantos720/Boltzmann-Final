@@ -1,0 +1,263 @@
+.dev{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    background: #1e3b55;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    width: 80%;
+    justify-content: center;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.dev .dev-image{
+    width: 15rem;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+#planet {
+    width: 50rem;
+    height: 50.5rem;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 50%;
+    transition: all 1s ease-in-out;
+    margin-top: 5%;
+}
+  
+#planet:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 50%;
+}
+  
+#planet > div {
+    width: 200%;
+    height: 100%;
+    animation: spin 10s linear alternate infinite;
+    background-size: cover;
+}
+
+.planeta1{
+    box-shadow: 0 0 10px #875f53, 0 0 15px #875f53, 0 0 30px #875f53;
+}
+
+.planeta1 > div{
+    background: url("/img/superterra-01.png");
+}
+
+.planeta2{
+    box-shadow: 0 0 10px #690c03, 0 0 15px #690c03, 0 0 30px #690c03;
+}
+
+.planeta2 > div{
+    background: url("/img/st2.png");
+}
+
+.planeta3{
+    box-shadow: 0 0 10px #c88e81, 0 0 15px #c88e81, 0 0 30px #c88e81;
+}
+
+.planeta3 > div{
+    background: url("/img/st3.png");
+}
+
+.planeta4{
+    box-shadow: 0 0 10px #a35a15, 0 0 15px #a35a15, 0 0 30px #a35a15;
+}
+
+.planeta4 > div{
+    background: url("/img/st4.png");
+}
+
+.planeta5{
+    box-shadow: 0 0 10px #6b644d, 0 0 15px #6b644d, 0 0 30px #6b644d;
+}
+
+.planeta5 > div{
+    background: url("/img/st5.png");
+}
+
+.planeta6{
+    box-shadow: 0 0 10px #e27308, 0 0 15px #e27308, 0 0 30px #e27308;
+}
+
+.planeta6 > div{
+    background: url("/img/st6.png");
+}
+
+.planeta7{
+    box-shadow: 0 0 10px #ba5187, 0 0 15px #ba5187, 0 0 30px #ba5187;
+}
+
+.planeta7 > div{
+    background: url("/img/st7.png");
+}
+
+.planeta8{
+    box-shadow: 0 0 10px #c99fa4, 0 0 15px #c99fa4, 0 0 30px #c99fa4;
+}
+
+.planeta8 > div{
+    background: url("/img/st8.png");
+}
+
+.planeta9{
+    box-shadow: 0 0 10px #7bc5dc, 0 0 15px #7bc5dc, 0 0 30px #7bc5dc;
+}
+
+.planeta9 > div{
+    background: url("/img/st9.png");
+}
+
+.planeta10{
+    box-shadow: 0 0 10px #2f3da4, 0 0 15px #2f3da4, 0 0 30px #2f3da4;
+}
+
+.planeta10 > div{
+    background: url("/img/st10.png");
+}
+
+@keyframes spin {
+    to {
+      transform: translateX(-50%);
+    }
+}
+
+.pl1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.planisferio{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content{
+    width: 40%;
+}
+
+body{
+    background: linear-gradient(to left, #91000f, #42020c);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.menuzin{
+    padding-top: 5rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.opcoes{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background: #fff;
+    opacity: 0.7;
+}
+
+.opcoes h1{
+    margin: auto;
+    cursor: pointer;
+}
+
+.opcoes a{
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width:3000px){
+    .pl1{
+        height: 100%;
+        padding-top: 15rem;
+        padding-bottom: 5rem;
+    }
+}
+
+@media screen and (max-width:2000px){
+    .text{
+        font-size: 1rem;
+    }
+
+    .dev .dev-image{
+        width: 8rem;
+    }
+}
+
+@media screen and (max-width:1500px){
+    .pl1{
+        flex-direction: column;
+    }
+
+    #planet{
+        width: 30rem;
+        height: 30.5rem;
+    }
+
+    .content, .planisferio{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:850px){
+    #planet{
+        width: 20rem;
+        height: 20.5rem;
+    }
+
+    .pl1{
+        padding-top: 7rem;
+    }
+
+    #pl1{
+        padding-top: 20rem;
+    }
+
+    .text{
+        font-size: 1.2rem;
+    }
+
+    .dev{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .opcoes{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width:400px){
+    #planet{
+        width: 15rem;
+        height: 15.5rem;
+    }
+}

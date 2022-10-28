@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to left, #91000f, #42020c);
+}
+
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 11rem;
+    background-color: black;
+}
+
+h1{
+    font-size: 5rem;
+    color: white;
+}
+
+
+.earth {
+    width: 30rem;
+    height: 32rem;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-top: 2.5%;
+    z-index: -10;
+    box-shadow: 0 0 10px #000, 0 0 15px #000, 0 0 30px #000;
+
+}
+  
+.earth:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: -20px -20px 50px 2px #000 inset;
+    border-radius: 50%;
+}
+  
+.earth > div {
+    width: 200%;
+    height: 100%;
+    animation: spin 10s linear alternate infinite;
+    background: url("/img/terra2.jpg");
+    background-size: cover;
+}
+
+@keyframes spin {
+    to {
+      transform: translateX(-50%);
+    }
+}
+
+.headline{
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.dev{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    background: #1e3b55;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+
+#devs{
+    width: 100%;
+    background: #3686cd;
+    padding: 50px;
+    color: #1e3b55;
+    margin-top: 3%;
+}
+
+#devs-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #3686cd;
+}
+
+.dev .dev-image{
+    width: 15rem;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+p{
+    text-align: justify;
+    width: 80%;
+    margin: auto;
+    font-size: 1.3rem;
+}
+
+@media screen and (max-width:1250px){
+    .dev{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:800px){
+    h1{
+        font-size: 3rem;
+    }
+
+    .title{
+        height: 8.5rem;
+    }
+}
+
+@media screen and (max-width:550px){
+    h1{
+        font-size: 1.5rem;
+    }
+
+    .title{
+        height: 6.8rem;
+    }
+
+    .earth{
+        width: 14rem;
+        height: 15rem;
+    }
+
+    .headline{
+        font-size: 1.4rem;
+    }
+
+    .dev .dev-image{
+        width: 10rem;
+    }
+
+    p{
+        font-size: 1rem;
+        width: 95%;
+    }
+
+    #devs-container{
+        width: 95%;
+    }
+}
+

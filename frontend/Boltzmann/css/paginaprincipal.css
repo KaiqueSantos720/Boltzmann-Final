@@ -1,0 +1,747 @@
+body{
+    background: linear-gradient(to left, #91000f, #42020c);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.headline{
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#solar{
+    padding-top: 4rem;
+}
+
+input{
+    display: none;
+}
+
+#produto{
+    width: 100%;
+    padding: 140px;
+    background:#42020c;
+    color: #91000f;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#produto-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#itens{
+    width: 50%;
+}
+
+#itens .item{
+    display: flex;
+    padding: 10px;
+    margin: 15px 0;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.item i{
+    padding: 10px;
+}
+
+.item p{
+    font-size: 1.4rem;
+    width: 70%;
+    text-align: justify;
+}
+
+.imagem{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.big-logo{
+    width: 60%;
+}
+
+.barra{
+    width: 200px;
+    height: 25px;
+    border: 2px groove white;
+    margin: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.barra:hover{
+    background-color: #fff;
+    transition: all .4s;
+}
+
+.flex{
+    display: flex;
+    width: 210px;
+    margin: auto;
+    position: relative;
+    bottom: 15%;
+}
+
+.slides{
+    height: 100vh;
+}
+
+.slide{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 5px 2px 4px black;
+}
+
+#showcase{
+    background: url('../img/buraco-negro.jpg') no-repeat center center/cover;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: color;
+}
+
+#showcase2, #showcase3, #showcase4, #showcase5{
+    background: url('../img/outros-planetas.jpg') no-repeat center center/cover;
+    display: none;
+    width: 0vw;
+    float: right;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: color;
+}
+
+#showcase-container{
+    text-align: center;
+    max-width: 700px;
+}
+
+#showcase-container h2 {
+    font-size: 3rem;
+}
+
+
+#showcase-container .par{
+    font-size: 1.3rem;
+    padding: 7px 0;
+}
+
+.show-a{
+    font-size: 3rem;
+    color: white;
+    transition: all .5s;
+}
+
+.title{
+    background: #27282c;
+    border-radius: 10px;
+    width: 80%;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+}
+
+.outros .title{
+    border: 5px groove #91000f;
+}
+
+@keyframes animate-red{
+    0%, 18%, 20%, 50.1%, 60%, 65.1%, 80%, 90.1%, 92%{
+        color: #fff;
+        text-shadow: none;
+    }
+    18.1%, 20.1%, 30%, 50%, 60.1%, 65%, 80.1%, 90%, 92.1% ,100%{
+        color: #91000f;
+        text-shadow: 0 0 10px #91000f, 0 0 20px #91000f, 0 0 40px #91000f, 0 0 80px #91000f, 0 0 160px #91000f;
+    }
+}
+
+.pl1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left, #91000f, #42020c);
+    padding-top: 5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.conteudo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.par{
+    font-size: 2.5rem;
+    text-align: justify;
+    width: 80%;
+    padding: 100px;
+    margin: 5%;
+}
+
+#forum-par{
+    font-size: 2.5rem;
+    text-align: justify;
+    padding: 100px;
+    margin: 5%;
+}
+
+.outros p{
+    color: #91000f;
+    background: #27282c;
+    border: 2px solid #91000f;
+}
+
+.a{
+    position: relative;
+    background: #444;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    padding: 10px 30px;
+    transition: 0.5s;
+    width: 20%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.a:hover{
+    letter-spacing: 0.25em;
+    background: var(--clr);
+    color: var(--clr);
+    box-shadow: 0 0 35px var(--clr);
+}
+
+.a::before{
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: #27282c;
+}
+
+.a span{
+    position: relative;
+    z-index: 1;
+}
+
+.a i{
+    position: absolute;
+    inset: 0;
+    display: block;
+}
+
+.a i::before{
+    content: "";
+    position: absolute;
+    border: 2px solid var(--clr);
+    top: -3.5px;
+    left: 80%;
+    width: 10px;
+    height: 5px;
+    background: #27282c;
+    transform: translateX(-50%);
+    transition: 0.5s;
+}
+
+.a:hover i::before{
+    width: 20px;
+    left: 20%;
+}
+
+.a i::after{
+    content: "";
+    position: absolute;
+    border: 2px solid var(--clr);
+    bottom: -3.5px;
+    left: 20%;
+    width: 10px;
+    height: 5px;
+    background: #27282c;
+    transform: translateX(-50%);
+    transition: 0.5s;
+}
+
+.a:hover i::after{
+    width: 20px;
+    left: 80%;
+}
+
+.outros h1{
+    animation: animate-red 5s linear infinite;
+}
+
+.h1{
+    font-size: 3em;
+    position: relative;
+    letter-spacing: 15px;
+    color: #0e3742;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    line-height: 0.70em;
+    outline: none;
+}
+
+.form{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.it, textarea{
+    display: block;
+    background: #91000f;
+}
+
+.title-form{
+    font-size: 3rem;
+    padding-bottom: 4rem;
+}
+
+label{
+    font-size: 1.5rem;
+}
+
+.form label, .form input, .form textarea, .form button{
+    display: block;
+    width: 40vw;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+
+.form input, .form textarea{
+    font: inherit;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    transition: border-color, box-shadow 0.2s;
+}
+
+.form textarea{
+    min-height: 13rem;
+    resize: vertical;
+}
+
+.form input:hover, .form input:focus, .form textarea:hover, .form textarea:focus{
+    outline: none;
+    border-color: #91000f;
+    box-shadow: 0 0 0 3px #42020c;
+}
+
+.form button{
+    display: block;
+    padding: 1rem;
+    background: #42020c;
+    color: #91000f;
+    font: inherit;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.form button:hover, .form button:focus{
+    outline: none;
+    background: #91000f;
+    color: #42020c;
+}
+
+input, textarea{
+    color: #fff;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+    cursor: auto;
+}
+
+footer{
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 12rem;
+    background-color: #000;
+    color: #fff;
+}
+
+footer h3{
+    font-size: 3rem;
+}
+
+footer h4{
+    font-size: 1.5rem;
+}
+
+footer i{
+    font-size: 3rem;
+}
+
+.cpy{
+    background: #000;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.custom{
+    font-size: 2rem;
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    letter-spacing: 4px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s; 
+}
+
+.custom:hover{
+    color: #42020c;
+    background: #91000f;
+    box-shadow: 0 0 10px #91000f, 0 0 40px #91000f, 0 0 80px #91000f;
+    transition-delay: 1s;
+    cursor: pointer;
+    letter-spacing: 6px;
+}
+
+.custom span{
+    position: absolute;
+    display: block;
+}
+
+.custom span:nth-child(1){
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #91000f);
+}
+
+.custom:hover span:nth-child(1){
+    left: 100%;
+    transition: 1s;
+}
+
+.custom span:nth-child(3){
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #91000f);
+}
+
+.custom:hover span:nth-child(3){
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+.custom span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #91000f);
+}
+
+.custom:hover span:nth-child(2){
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+.custom span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #91000f);
+}
+
+.custom:hover span:nth-child(4){
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+
+ul{
+    position: relative;
+    display: flex;
+    gap: 80px;
+}
+
+ul li{
+    position: relative;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+    width: 4rem;
+    height: 4rem;
+}
+
+ul li .fa{
+    font-size: 3rem;
+    -webkit-text-stroke: 2px var(--clr);
+    color: transparent;
+    cursor: pointer;
+}
+
+ul li::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    border-bottom: 4px solid var(--clr);
+    transition: 0.5s ease-in-out;
+    font-family: fontAwesome;
+    text-align: center;
+    line-height: 4rem;
+    font-size: 3rem;
+    color: var(--clr);
+}
+
+ul li:hover::before{
+    height: 100%;
+}
+
+ul li:nth-child(1):before{
+    content: '\f39e';
+}
+
+ul li:nth-child(2):before{
+    content: '\f099';
+}
+
+ul li:nth-child(3):before{
+    content: '\f16d';
+}
+
+
+
+@media screen and (max-width: 3000px){
+    #produto{
+        height: 100%;
+    }
+
+    .form{
+        height: 100%;
+    }
+
+}
+
+@media screen and (max-width: 2500px){
+    .pl1{
+        height: 100%;
+        padding-bottom: 5rem;
+    }
+}
+
+@media screen and (max-width: 1400px){
+    #produto-container{
+        flex-direction: column;
+    }
+
+
+    #itens{
+        width: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .item{
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1250px){
+    h1, .headline{
+        font-size: 3rem;
+    }
+
+    .pl1{
+        height: 100%;
+        padding-bottom: 5rem;
+    }
+
+    .item p {
+        width: 90%;
+    }
+
+    .big-logo{
+        width: 80%;
+    }
+
+
+    .a{
+        font-size: 1em;
+        width: 60%;
+    }
+
+    .h1{
+        font-size: 2em;
+    }
+
+    p{
+        font-size: 1.5em;
+        padding: 60px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    #produto-container{
+        width: 100%;
+    }
+
+    #itens{
+        width: 150%;
+    }
+
+    h1, .headline{
+        font-size: 2rem;
+    }
+
+    .big-logo{
+        width: 300%;
+    }
+    #forum-par{
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .item p {
+        width: 110%;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .item p {
+        width: 117%;
+    }
+}
+
+@media screen and (max-height:670px){
+    .a{
+        height: 12vh;
+    }
+
+    .title{
+        height: 20vh;
+    }
+
+    .pl1{
+        height: 100%;
+        padding-bottom: 7rem;
+    }
+
+}
+
+@media screen and (max-height:1000px){
+    footer{
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 520px){ 
+    #itens{
+        width: 200%;
+    }
+}
+
+@media screen and (max-height:300px){
+    .a{
+        height: 30vh;
+    }
+
+    .title{
+        height: 38vh;
+    }
+}
+
+@media screen and (max-height:400px){
+    .slides, .slide{
+        height: 150vh;
+    }
+}
+
+@media screen and (max-width: 490px){
+    #itens{
+        width: 100%;
+    }
+
+    #itens p{
+        width: 140%;
+        font-size: 1.2rem;
+    }
+
+    .form label, .form input, .form textarea, .form button{
+        width: 70vw;
+    }
+
+    .pl1 p{
+        font-size: 1rem;
+    }
+
+    footer h3{
+        font-size: 2rem;
+    }
+
+    #forum-par{
+        font-size: 1.2rem;
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 300px){
+    #itens p{
+        width: 110%;
+    }
+}

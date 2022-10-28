@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="css/habitaveis.css">
+    <link rel="stylesheet" href="css/header.css">
+    <title>Superterra</title>
+</head>
+<body>
+    <nav id="navbar">
+        <div id="navbar-container">
+            <img src="icons/logo-vermelha.png" class="logo" alt="">
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul id="navbar-itens">
+                <li><a href="">Buraco Negro</a></li>
+                <li><a href="">Superterra</a></li>
+                <li><a href="">Terra</a></li>
+                <li><a href="">Teoria das Cordas</a></li>
+                <li><a href="">Astrônomos</a></li>
+                <li><a href="">Fórum</a></li>
+                <li><a href=""><img class="icon" src="icons/iconouser.png" alt=""></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="all">
+        <div class="outros">
+            <div id="outros-conteudo" class="conteudo">
+                <div class="title"><h1>Planetas Habitáveis</h1></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, labore, quaerat est aliquid velit, consectetur ullam atque optio sunt tempora impedit illum accusamus vero facere vel reiciendis odio aut voluptas? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur quo, unde, sapiente ipsa animi voluptatum sint explicabo alias dignissimos enim perferendis fugit maxime facilis. Sequi, ratione veritatis. Delectus, corporis autem!</p>
+                <a style="--clr:#91000f" class="a" href=""><span class="">Outros</span><i></i></a>
+            </div>
+        </div>
+        <div class="terra">
+            <div class="conteudo">
+                <div class="title"><h1>Planeta Terra</h1></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, labore, quaerat est aliquid velit, consectetur ullam atque optio sunt tempora impedit illum accusamus vero facere vel reiciendis odio aut voluptas? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur quo, unde, sapiente ipsa animi voluptatum sint explicabo alias dignissimos enim perferendis fugit maxime facilis. Sequi, ratione veritatis. Delectus, corporis autem!</p>
+                <a style="--clr:rgb(37, 150, 190)" class="a" href=""><span class="">Terra</span><i></i></a>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/nav-mobile.js"></script>
+    <script>
+        window.sr = ScrollReveal({reset:true});
+
+        sr.reveal('.a', {duration:1000})
+    </script>
+</body>

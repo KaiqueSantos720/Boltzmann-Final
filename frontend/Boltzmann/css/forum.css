@@ -1,0 +1,364 @@
+.header{
+    background: #040c8e;
+    width: 100%;
+    position: relative;
+    top: 5rem;
+}
+
+.itens2{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 75%;
+    height: 5vh;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.itens2 li{
+    margin: auto;
+}
+
+
+.clube{
+    color: white;
+}
+
+.clube:hover{
+    cursor: pointer;
+}
+
+.dev{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    background: #1e3b55;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    flex-direction: column;
+    width: 100%;
+}
+
+#devs{
+    width: 100%;
+    background: #3686cd;
+    padding: 50px;
+    color: #1e3b55;
+    margin-top: 3%;
+}
+
+#devs-container{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #3686cd;
+}
+
+.dev .dev-image{
+    width: 15rem;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.posts{
+    margin-top: 3%;
+    width: 100%;
+}
+
+.interacao{
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 3%;
+    width: 100%;
+}
+
+.fa{
+    cursor: pointer;
+    margin-left: 2%;
+    font-size: 2rem;
+}
+
+.fa-meteor{
+    cursor: default;
+}
+
+.resp{
+    text-decoration: underline;
+}
+
+.names{
+    display: flex;
+    width: 100%;
+}
+
+.names h2{
+    margin-left: 5%;
+}
+
+.message{
+    width: 90%;
+    margin: auto;
+}
+
+.btns{
+    display: flex;
+}
+
+
+.btn-style{
+    position: relative;
+}
+
+.btn-style::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: #42020c;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+
+
+.btn-style:hover::after{
+    width: 100%;
+}
+
+.option{
+    position: relative;
+}
+
+.option::after{
+    content: "";
+    width: 0%;
+    height: 1px;
+    background-color: #1e3b55;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.option:hover::after{
+    width: 100%;
+}
+
+
+.form{
+    width: 100%;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+#hide{
+    display: none;
+}
+
+.it, textarea{
+    display: flex;
+    background: #91000f;
+}
+
+.title-form{
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+label{
+    display: block;
+    font-size: 1.5rem;
+}
+
+.form label, .form input, .form textarea, .form button{
+    width: 20vw;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+
+.form input, .form textarea{
+    font: inherit;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    transition: border-color, box-shadow 0.2s;
+}
+
+.form textarea{
+    min-height: 13rem;
+    resize: vertical;
+}
+
+.form input:hover, .form input:focus, .form textarea:hover, .form textarea:focus{
+    outline: none;
+    border-color: #91000f;
+    box-shadow: 0 0 0 3px #42020c;
+}
+
+.form button{
+    display: block;
+    padding: 1rem;
+    background: #42020c;
+    color: #91000f;
+    font: inherit;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+    width: 50%;
+    margin: 1%;
+}
+
+.form button:hover, .form button:focus{
+    outline: none;
+    background: #91000f;
+    color: #42020c;
+}
+
+input, textarea{
+    color: #fff;
+}
+
+.create{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 23rem;
+}
+
+.all{
+    padding: 5%;
+}
+
+body{
+    background: #27282c;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+    color: #1e3b55;
+    font-size: 3rem;
+}
+
+.new-post{
+    text-decoration: none;
+    background: #3686cd;
+    width: 10%;
+    height: 6vh;
+    font-size: 2rem;
+    font-family: 'Imprint MT Shadow';
+    border-radius: 20px;
+    cursor: pointer; 
+}
+
+.plugin{
+    width: 50%;
+    margin: auto;
+    z-index: 1;
+}
+
+.plugin2{
+    margin: auto;
+    width: 80%;
+    z-index: -1;
+}
+
+.options{
+    background: #3686cd;
+    color: #1e3b55;
+    border-radius: 10px;
+    height: 4.3rem;
+    width: 10rem;
+    display: none;
+}
+
+.options p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:3000px){
+    .all{
+        height: 100%;
+    }
+}
+
+@media screen and (max-width:1250px){
+    .dev{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .create{
+        height: 35rem;
+    }
+
+    .plugin{
+        width: 70%;
+    }
+
+    #devs-container{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 950px){
+    .interacao{
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .plugin{
+        width: 95%;
+    }
+
+    .title{
+        font-size: 2rem;
+    }
+
+    #devs-container{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .options p{
+        font-size: 1.6rem;
+    }
+
+    .options{
+        height: 3.5rem;
+        width: 6rem;
+    }
+}
+
+@media screen and (max-width:290px){
+    .names h2{
+        font-size: 1.5rem;
+    }
+
+    .options p{
+        font-size: 1rem;
+    }
+
+    .options{
+        height: 2.3rem;
+        width: 4rem;
+    }
+}
