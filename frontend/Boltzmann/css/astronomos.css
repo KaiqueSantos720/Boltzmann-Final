@@ -1,12 +1,12 @@
 .all{
     width: 100%;
     height: 100vh;
-    background: linear-gradient(to left, #91000f, #42020c);
+    background-color: #41486E;
     padding-top: 10rem;
 }
 
 body{
-    background: linear-gradient(to left, #91000f, #42020c);
+    background-color: #41486E;
 }
 
 h1{
