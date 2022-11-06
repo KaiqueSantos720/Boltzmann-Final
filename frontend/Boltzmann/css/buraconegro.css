@@ -11,7 +11,7 @@ h1{
 }
 
 .outros h1{
-    animation: animate-red 5s linear infinite;
+    animation: animate-red 1s linear infinite;
 }
 
 .title{
