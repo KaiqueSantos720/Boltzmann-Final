@@ -76,7 +76,7 @@ h1{
 }
 
 .st1 > div{
-    background: url("/img/superterra-01.png"); 
+    background: url("../img/superterra-01.png"); 
 }
 
 .st2{
@@ -84,7 +84,7 @@ h1{
 }
 
 .st2 > div{
-    background: url("/img/st2.png");
+    background: url("../img/st2.png");
 }
 
 .st3{
@@ -92,7 +92,7 @@ h1{
 }
 
 .st3 > div{
-    background: url("/img/st3.png");
+    background: url("../img/st3.png");
 }
 
 .st4{
@@ -100,7 +100,7 @@ h1{
 }
 
 .st4 > div{
-    background: url("/img/st4.png");
+    background: url("../img/st4.png");
 }
 
 .st5{
@@ -108,7 +108,7 @@ h1{
 }
 
 .st5 > div{
-    background: url("/img/st5.png");
+    background: url("../img/st5.png");
 }
 
 .st6{
@@ -116,7 +116,7 @@ h1{
 }
 
 .st6 > div{
-    background: url("/img/st6.png");
+    background: url("../img/st6.png");
 }
 
 .st7{
@@ -124,7 +124,7 @@ h1{
 }
 
 .st7 > div{
-    background: url("/img/st7.png");
+    background: url("../img/st7.png");
 }
 
 .st8{
@@ -132,7 +132,7 @@ h1{
 }
 
 .st8 > div{
-    background: url("/img/st8.png");
+    background: url("../img/st8.png");
 }
 
 .st9{
@@ -140,7 +140,7 @@ h1{
 }
 
 .st9 > div{
-    background: url("/img/st9.png");
+    background: url("../img/st9.png");
 }
 
 .st10{
@@ -148,7 +148,7 @@ h1{
 }
 
 .st10 > div{
-    background: url("/img/st10.png");
+    background: url("../img/st10.png");
 }
 
 .st11{
@@ -156,7 +156,7 @@ h1{
 }
 
 .st11 > div{
-    background: url("/img/st11.png");
+    background: url("../img/st11.png");
 }
 
 .st12{
@@ -164,7 +164,7 @@ h1{
 }
 
 .st12 > div{
-    background: url("/img/st12.png");
+    background: url("../img/st12.png");
 }
 
 @keyframes spin {
@@ -245,7 +245,7 @@ h2{
 }
 
 .planeta1 > div{
-    background: url("/img/superterra-01.png");
+    background: url("../img/superterra-01.png");
 }
 
 .planeta2{
@@ -253,7 +253,7 @@ h2{
 }
 
 .planeta2 > div{
-    background: url("/img/st2.png");
+    background: url("../img/st2.png");
 }
 
 .planeta3{
@@ -261,7 +261,7 @@ h2{
 }
 
 .planeta3 > div{
-    background: url("/img/st3.png");
+    background: url("../img/st3.png");
 }
 
 .planeta4{
@@ -269,7 +269,7 @@ h2{
 }
 
 .planeta4 > div{
-    background: url("/img/st4.png");
+    background: url("../img/st4.png");
 }
 
 .planeta5{
@@ -277,7 +277,7 @@ h2{
 }
 
 .planeta5 > div{
-    background: url("/img/st5.png");
+    background: url("../img/st5.png");
 }
 
 .planeta6{
@@ -285,7 +285,7 @@ h2{
 }
 
 .planeta6 > div{
-    background: url("/img/st6.png");
+    background: url("../img/st6.png");
 }
 
 .planeta7{
@@ -293,7 +293,7 @@ h2{
 }
 
 .planeta7 > div{
-    background: url("/img/st7.png");
+    background: url("../img/st7.png");
 }
 
 .planeta8{
@@ -301,7 +301,7 @@ h2{
 }
 
 .planeta8 > div{
-    background: url("/img/st8.png");
+    background: url("../img/st8.png");
 }
 
 .planeta9{
@@ -309,7 +309,7 @@ h2{
 }
 
 .planeta9 > div{
-    background: url("/img/st9.png");
+    background: url("../img/st9.png");
 }
 
 .planeta10{
@@ -317,7 +317,7 @@ h2{
 }
 
 .planeta10 > div{
-    background: url("/img/st10.png");
+    background: url("../img/st10.png");
 }
 
 .planeta11{
@@ -325,7 +325,7 @@ h2{
 }
 
 .planeta11 > div{
-    background: url("/img/st11.png");
+    background: url("../img/st11.png");
 }
 
 .planeta12{
@@ -333,7 +333,7 @@ h2{
 }
 
 .planeta12 > div{
-    background: url("/img/st12.png");
+    background: url("../img/st12.png");
 }
 
 .caracteristicas{
