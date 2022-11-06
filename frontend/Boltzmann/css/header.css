@@ -6,8 +6,8 @@
 
 #navbar{
     width: 100%;
-    background: linear-gradient(to left, #91000f, #42020c);
-    color: black;
+    background: #131520;
+    color: #fff;
     height: 80px;
     position: fixed;
     z-index: 99;
@@ -39,7 +39,7 @@
 }
 
 #navbar-itens a{
-    color: #131313;
+    color: #fff;
     position: relative;
 }
 
@@ -47,7 +47,7 @@
     content: "";
     width: 0%;
     height: 1px;
-    background-color: #131313;
+    background-color: #fff;
     position: absolute;
     bottom: 0;
     left: 0;

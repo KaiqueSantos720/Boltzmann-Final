@@ -1,5 +1,9 @@
 body{
-    background: linear-gradient(to left, #91000f, #42020c);
+    background-image: url('https://images3.alphacoders.com/791/791016.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 html{
@@ -25,19 +29,21 @@ input{
 #produto{
     width: 100%;
     padding: 140px;
-    background:#42020c;
-    color: #91000f;
+    background: rgba(19, 21, 32, 0.8);
+    color: #fff;
     height: 100vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    
 }
 
 #produto-container{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 #itens{
@@ -154,19 +160,22 @@ input{
 }
 
 .outros .title{
-    border: 5px groove #91000f;
+    border: 5px groove #fff
+    
 }
 
+/* Animação do texto "Fórum"
 @keyframes animate-red{
     0%, 18%, 20%, 50.1%, 60%, 65.1%, 80%, 90.1%, 92%{
         color: #fff;
         text-shadow: none;
     }
     18.1%, 20.1%, 30%, 50%, 60.1%, 65%, 80.1%, 90%, 92.1% ,100%{
-        color: #91000f;
-        text-shadow: 0 0 10px #91000f, 0 0 20px #91000f, 0 0 40px #91000f, 0 0 80px #91000f, 0 0 160px #91000f;
+        color: #80A6CC;
+        text-shadow: 0 0 10px #80A6CC, 0 0 20px #80A6CC, 0 0 40px #80A6CC, 0 0 80px #80A6CC, 0 0 160px #80A6CC;
     }
 }
+*/
 
 .pl1{
     width: 100%;
@@ -174,11 +183,13 @@ input{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to left, #91000f, #42020c);
+    background: rgba(19, 21, 32, 0.8);
     padding-top: 5rem;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
+    color: #fff;
+    border-radius: 30px;
 }
 
 .conteudo{
@@ -204,9 +215,10 @@ input{
 }
 
 .outros p{
-    color: #91000f;
+    color: #fff;
     background: #27282c;
-    border: 2px solid #91000f;
+    border: 2px solid #fff;
+    border-radius: 30px;
 }
 
 .a{
@@ -224,6 +236,7 @@ input{
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .a:hover{
@@ -295,7 +308,7 @@ input{
     font-size: 3em;
     position: relative;
     letter-spacing: 15px;
-    color: #0e3742;
+    color: #fff;
     text-transform: uppercase;
     width: 100%;
     text-align: center;
@@ -310,11 +323,12 @@ input{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    color: #fff;
 }
 
 .it, textarea{
     display: block;
-    background: #91000f;
+    background: #131520;
 }
 
 .title-form{
@@ -349,27 +363,27 @@ label{
 
 .form input:hover, .form input:focus, .form textarea:hover, .form textarea:focus{
     outline: none;
-    border-color: #91000f;
-    box-shadow: 0 0 0 3px #42020c;
+    border-color: #fff;
+    box-shadow: 0 0 0 3px #C9C9C9;
 }
 
 .form button{
     display: block;
     padding: 1rem;
-    background: #42020c;
-    color: #91000f;
+    background: #131520;
+    color: #000;
     font: inherit;
     text-transform: uppercase;
     border: none;
-    border-radius: 8px;
+    border-radius: 10px;
     cursor: pointer;
     transition: 0.2s;
 }
 
 .form button:hover, .form button:focus{
     outline: none;
-    background: #91000f;
-    color: #42020c;
+    background: #2F344F;
+    color: #131520;
 }
 
 input, textarea{
@@ -433,12 +447,13 @@ footer i{
     text-decoration: none;
     overflow: hidden;
     transition: 0.2s; 
+    border-radius: 20px;
 }
 
 .custom:hover{
-    color: #42020c;
-    background: #91000f;
-    box-shadow: 0 0 10px #91000f, 0 0 40px #91000f, 0 0 80px #91000f;
+    color: #2F344F;
+    background: #131520;
+    box-shadow: 0 0 10px #131520, 0 0 40px #131520, 0 0 80px #131520;
     transition-delay: 1s;
     cursor: pointer;
     letter-spacing: 6px;
@@ -454,7 +469,7 @@ footer i{
     left: -100%;
     width: 100%;
     height: 2px;
-    background: linear-gradient(90deg, transparent, #91000f);
+    background: linear-gradient(90deg, transparent, #41486E);
 }
 
 .custom:hover span:nth-child(1){
@@ -467,7 +482,7 @@ footer i{
     right: -100%;
     width: 100%;
     height: 2px;
-    background: linear-gradient(270deg, transparent, #91000f);
+    background: linear-gradient(270deg, transparent, #41486E);
 }
 
 .custom:hover span:nth-child(3){
@@ -481,7 +496,7 @@ footer i{
     right: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(180deg, transparent, #91000f);
+    background: linear-gradient(180deg, transparent, #41486E);
 }
 
 .custom:hover span:nth-child(2){
@@ -495,7 +510,7 @@ footer i{
     left: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(360deg, transparent, #91000f);
+    background: linear-gradient(360deg, transparent, #41486E);
 }
 
 .custom:hover span:nth-child(4){
@@ -745,3 +760,4 @@ ul li:nth-child(3):before{
         width: 110%;
     }
 }
+
