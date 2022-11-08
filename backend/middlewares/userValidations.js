@@ -53,6 +53,7 @@ const userUpdateValidation = () => {
   ];
 };
 
+
 module.exports = {
   userCreateValidation,
   loginValidation,

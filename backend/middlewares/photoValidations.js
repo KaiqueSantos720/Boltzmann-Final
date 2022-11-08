@@ -9,7 +9,9 @@ const photoInsertValidation = () => {
       .isString()
       .withMessage("O título é obrigatório")
       .isLength({ min: 3 })
-      .withMessage("O título precisa ter no mínimo 3 caracteres."),
+      .withMessage("O título precisa ter no mínimo 3 caracteres.")
+      .isLength({ max: 30 })
+      .withMessage("O título pode ter no máximo 30 caracteres."),
     body("image").custom((value, { req }) => {
       if (!req.file) {
         throw new Error("A imagem é obrigatória");
@@ -34,12 +36,16 @@ const photoUpdateValidation = () => {
       .isString()
       .withMessage("O título é obrigatório")
       .isLength({ min: 3 })
-      .withMessage("O título precisa ter no mínimo 3 caracteres."),
+      .withMessage("O título precisa ter no mínimo 3 caracteres.")
+      .isLength({ max: 30 })
+      .withMessage("O título pode ter no máximo 30 caracteres."),
   ];
 };
 
 const commentValidation = () => {
-  return [body("comment").isString().withMessage("O comentário é obrigatório")];
+  return [
+    body("comment").isString().withMessage("O comentário é obrigatório").isLength({ max: 30 }).withMessage("O comentário pode ter no máximo 30 caracteres.")
+  ];
 };
 
 module.exports = {

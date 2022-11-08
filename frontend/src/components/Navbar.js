@@ -59,10 +59,7 @@ const Navbar = () => {
                             </NavLink>
                         </li>
                         <li>
-                            <span onClick={handleLogout}>Sair</span>
-                        </li>
-                        <li>
-                            <a title='Página Principal' href="http://127.0.0.1:5500/frontend/Boltzmann/paginaprincipal.html"><BsBoxArrowRight /></a>
+                            <span onClick={handleLogout}><BsBoxArrowRight /></span>
                         </li>
                     </>
                 ) : (
@@ -76,9 +73,6 @@ const Navbar = () => {
                             <NavLink to='register'>
                                 Cadastrar
                             </NavLink>
-                        </li>
-                        <li>
-                            <a title='Página Principal' href="http://127.0.0.1:5500/frontend/Boltzmann/paginaprincipal.html"><BsBoxArrowRight /></a>
                         </li>
                     </>
                 )}

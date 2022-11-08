@@ -3,6 +3,10 @@
     margin: 0 auto;
 }
 
+.profile-description p{
+    word-break: break-all;
+}
+
 .profile-header{
     display: flex;
     align-items: center;
