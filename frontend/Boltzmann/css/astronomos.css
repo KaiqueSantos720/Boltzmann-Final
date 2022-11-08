@@ -26,7 +26,7 @@ h1{
 .astronomos{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    width: 175vh;
+    width: 90%;
     margin: auto;
     grid-gap: 1rem;
     padding-bottom: 3rem;
@@ -36,11 +36,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    background: url(../img/boltzmann.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 34vh;
+    height: 35vh;
     filter: blur(2px) grayscale(1);
     transition: all 0.5s ease-in-out;
 }
@@ -55,17 +51,96 @@ h1{
     transition: all 1s ease-in-out;
 }
 
+#btz1{
+    background: url(../img/boltzmann.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#btz2{
+    background: url(../img/kepler.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#btz3{
+    background: url(../img/edwin-hubble.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#btz4{
+    background: url(../img/CarlSagan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#btz5{
+    background: url(../img/stephen-hawking.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#btz6{
+    background: url(../img/Karl_schwarzschild.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#btz7{
+    background: url(../img/Leavitt_aavso.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#btz8{
+    background: url(../img/Charles_Messier.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#btz9{
+    background: url(../img/katie-bouman.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#btz10{
+    background: url(../img/Lukebarnes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#btz11{
+    background: url(../img/Christiaan_Huygen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#btz12{
+    background: url(../img/alberteinstein.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 .bio{
     display: flex;
     width: 100%;
     height: 90%;
     justify-content: space-evenly;
     align-items: center;
-}
-
-#bio1{
-    background: url(../img/boltzmann-bg.jpg);
-
+    background-color: rgba(0, 99, 99, 0.7);
 }
 
 .biografia{
