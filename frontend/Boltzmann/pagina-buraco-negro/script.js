@@ -290,20 +290,20 @@ $("#pg").on("click", function(){
     $("#real-madrid").slideUp(1000);
     $("#inicio").delay(1200).fadeIn(1000);
 
-    img.setAttribute('src', 'Icons/logo-vermelha.png');
+    img.setAttribute('src', '../icons/logo-vermelha.png');
 
 
-    document.getElementById("body").style.background = "#040c8e";
+    document.getElementById("body").style.background = "#000";
     document.getElementById("navbar").style.background = "linear-gradient(to left, #91000f, #42020c)";
     document.getElementById("header").style.background = "#040c8e";
 
     for(i=0; i < idsi.length; i++){
-        document.querySelector(idsi[i]).style.color = "#fff";
+        document.querySelector(idsi[i]).style.color = "#00000";
     }
 });
 
 
-$("#club1").on("click", function(){
+$("#club1, #chelsea").on("click", function(){
     if(document.getElementById("inicio").style.display != "none"){
         $("#inicio").fadeOut(1000);
         $("#chelsea-london").delay(1200).slideDown(1000);
@@ -321,7 +321,7 @@ $("#club1").on("click", function(){
     $("#united-manchester").slideUp(1000);
     $("#chelsea-london").slideDown(1000);
 
-    img.setAttribute('src', 'Icons/logo-vermelha.png');
+    img.setAttribute('src', '../icons/logo-vermelha.png');
 
     document.getElementById("body").style.background = "#021226";
     document.getElementById("navbar").style.background = "#000000";
@@ -359,7 +359,7 @@ $("#club10").on("click", function(){
     $("#real-madrid").slideUp(1000);
     $("#bayern-munich").slideDown(1000);
 
-    img.setAttribute('src', 'Icons/logo-vermelha.png');
+    img.setAttribute('src', '../icons/logo-vermelha.png');
 
 
     document.getElementById("body").style.background = "#dc052d";
@@ -398,7 +398,7 @@ $("#club12").on("click", function(){
     $("#atletico-madrid").slideUp(1000);
     $("#internazionale-milan").slideDown(1000);
 
-    img.setAttribute('src', 'Icons/logo-vermelha.png');
+    img.setAttribute('src', '../icons/logo-vermelha.png');
 
 
     document.getElementById("body").style.background = "linear-gradient(to left,  #011ea0 16.7%, black 16.7% 33.3%, #011ea0 33.3% 50%, black 50% 66.6%, #011ea0 66.6% 83.3%, black 83.3% 100%)";
@@ -419,7 +419,7 @@ $("#club12").on("click", function(){
     }
 });
 
-$("#club7").on("click", function(){
+$("#club7, #real").on("click", function(){
     if(document.getElementById("inicio").style.display != "none"){
         $("#inicio").fadeOut(1000);
         $("#real-madrid").delay(1200).slideDown(1000);
@@ -437,7 +437,7 @@ $("#club7").on("click", function(){
     $("#leipzig-leipzig").slideUp(1000);
     $("#real-madrid").slideDown(1000);
 
-    img.setAttribute('src', 'Icons/logo-vermelha.png');
+    img.setAttribute('src', '../icons/logo-vermelha.png');
 
 
     document.getElementById("body").style.background = "#000000";
@@ -476,7 +476,7 @@ $("#club8").on("click", function(){
     $("#real-madrid").slideUp(1000);
     $("#atletico-madrid").slideDown(1000);
 
-    img.setAttribute('src', 'Icons/logo-vermelha.png');
+    img.setAttribute('src', '../icons/logo-vermelha.png');
 
 
     document.getElementById("body").style.background = "linear-gradient(to left, #aa2522 14.3%, white 14.3% 28.6%, #aa2522 28.6% 42.8%, white 42.8% 57.1%, #aa2522 57.1% 71.4%, white 71.4% 85.7%, #aa2522 85.7% 100%)";
@@ -496,7 +496,7 @@ $("#club8").on("click", function(){
     }
 });
 
-$("#club5").on("click", function(){
+$("#club5, #tottenham").on("click", function(){
     if(document.getElementById("inicio").style.display != "none"){
         $("#inicio").fadeOut(1000);
         $("#tottenham-london").delay(1200).slideDown(1000);
@@ -514,7 +514,7 @@ $("#club5").on("click", function(){
     $("#city-manchester").slideUp(1000);
     $("#tottenham-london").slideDown(1000);
 
-    img.setAttribute('src', 'Icons/logo-vermelha.png');
+    img.setAttribute('src', '../icons/logo-vermelha.png');
 
 
     document.getElementById("body").style.background = "#000";
@@ -535,7 +535,7 @@ $("#club5").on("click", function(){
     }
 });
 
-$("#club2").on("click", function(){
+$("#club2, #city").on("click", function(){
     if(document.getElementById("inicio").style.display != "none"){
         $("#inicio").fadeOut(1000);
         $("#city-manchester").delay(1200).slideDown(1000);
@@ -553,7 +553,7 @@ $("#club2").on("click", function(){
     $("#arsenal-london").slideUp(1000);
     $("#city-manchester").slideDown(1000);
 
-    img.setAttribute('src', 'Icons/logo-vermelha.png');
+    img.setAttribute('src', '../icons/logo-vermelha.png');
 
 
     document.getElementById("body").style.background = "#401317";
@@ -574,7 +574,7 @@ $("#club2").on("click", function(){
     }
 });
 
-$("#club6").on("click", function(){
+$("#club6, #arsenal").on("click", function(){
     if(document.getElementById("inicio").style.display != "none"){
         $("#inicio").fadeOut(1000);
         $("#arsenal-london").delay(1200).slideDown(1000);
@@ -592,7 +592,7 @@ $("#club6").on("click", function(){
     $("#city-manchester").slideUp(1000);
     $("#arsenal-london").slideDown(1000);
 
-    img.setAttribute('src', 'Icons/logo-vermelha.png');
+    img.setAttribute('src', '../icons/logo-vermelha.png');
 
 
     document.getElementById("body").style.background = "#000";
@@ -631,7 +631,7 @@ $("#club11").on("click", function(){
     $("#leipzig-leipzig").slideUp(1000);
     $("#milan-milan").slideDown(1000);
 
-    img.setAttribute('src', 'Icons/logo-vermelha.png');
+    img.setAttribute('src', '../icons/logo-vermelha.png');
 
 
     document.getElementById("body").style.background = "linear-gradient(to left,  black 16.7%, #e21c2a 16.7% 33.3%, black 33.3% 50%, #e21c2a 50% 66.6%, black 66.6% 83.3%, #e21c2a 83.3% 100%)";
@@ -670,7 +670,7 @@ $("#club9").on("click", function(){
     $("#united-manchester").slideUp(1000);
     $("#leipzig-leipzig").slideDown(1000);
 
-    img.setAttribute('src', 'Icons/logo-vermelha.png');
+    img.setAttribute('src', '../icons/logo-vermelha.png');
 
 
     document.getElementById("body").style.background = "linear-gradient(to left, #001f47, #dd0741)";
@@ -691,7 +691,7 @@ $("#club9").on("click", function(){
     }
 });
 
-$("#club3").on("click", function(){
+$("#club3, #united").on("click", function(){
     if(document.getElementById("inicio").style.display != "none"){
         $("#inicio").fadeOut(1000);
         $("#united-manchester").delay(1200).slideDown(1000);
@@ -709,7 +709,7 @@ $("#club3").on("click", function(){
     $("#liverpool-liverpool").slideUp(1000);
     $("#united-manchester").slideDown(1000);
 
-    img.setAttribute('src', 'Icons/logo-vermelha.png');
+    img.setAttribute('src', '../icons/logo-vermelha.png');
 
 
     document.getElementById("body").style.background = "#2D3240";
@@ -731,7 +731,7 @@ $("#club3").on("click", function(){
 });
 
 
-$("#club4").on("click", function(){
+$("#club4, #liverpool").on("click", function(){
     if(document.getElementById("inicio").style.display != "none"){
         $("#inicio").fadeOut(1000);
         $("#liverpool-liverpool").delay(1200).slideDown(1000);
@@ -749,7 +749,7 @@ $("#club4").on("click", function(){
     $("#united-manchester").slideUp(1000);
     $("#liverpool-liverpool").slideDown(1000);
 
-    img.setAttribute('src', 'Icons/logo-vermelha.png');
+    img.setAttribute('src', '../icons/logo-vermelha.png');
 
 
     document.getElementById("body").style.background = "#1E0B26";

@@ -1,5 +1,5 @@
 body{
-    background-image: url('https://images3.alphacoders.com/791/791016.png');
+    background-image: url('../img/bginicial.png');
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -115,16 +115,39 @@ input{
 }
 
 #showcase{
-    background: url('../img/buraco-negro.jpg') no-repeat center center/cover;
+    background: url('../img/1114912.jpg') no-repeat center center/cover;
     background-color: rgba(0,0,0,0.5);
     background-blend-mode: color;
 }
 
 #showcase2, #showcase3, #showcase4, #showcase5{
-    background: url('../img/outros-planetas.jpg') no-repeat center center/cover;
     display: none;
     width: 0vw;
     float: right;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: color;
+}
+
+#showcase2{
+    background: url('../img/buraco-negro.jpg') no-repeat center center/cover;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: color;
+}
+
+#showcase3{
+    background: url('../img/359757.jpg') no-repeat center center/cover;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: color;
+}
+
+#showcase4{
+    background: url('../img/astronomos.jpg') no-repeat center center/cover;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: color;
+}
+
+#showcase5{
+    background: url('../img/buraco-negro.jpg') no-repeat center center/cover;
     background-color: rgba(0,0,0,0.5);
     background-blend-mode: color;
 }

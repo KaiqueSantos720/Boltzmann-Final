@@ -5,7 +5,12 @@
 }
 
 body{
-    background-color: #4682B4;
+    background: url("../img/terra.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
 }
 
 .title{
@@ -14,7 +19,7 @@ body{
     justify-content: center;
     align-items: flex-end;
     height: 11rem;
-    background-color: black;
+    background-color: #2F344F;
 }
 
 h1{
@@ -74,7 +79,7 @@ h1{
     display: flex;
     align-items: center;
     font-size: 1.2rem;
-    background: #1e3b55;
+    background: #131520;
     padding: 15px;
     margin: 15px 0;
     border-radius: 5px;
@@ -83,7 +88,7 @@ h1{
 
 #devs{
     width: 100%;
-    background: #3686cd;
+    
     padding: 50px;
     color: #1e3b55;
     margin-top: 3%;
@@ -115,6 +120,14 @@ p{
     width: 80%;
     margin: auto;
     font-size: 1.3rem;
+}
+
+.bgpalido{
+    height: 20vh;
+    width: 42rem;
+    text-align: end;
+    margin-top: 75vh;
+    margin-left: 135vh;
 }
 
 @media screen and (max-width:1250px){

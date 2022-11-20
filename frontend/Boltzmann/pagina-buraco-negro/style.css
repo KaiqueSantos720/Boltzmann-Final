@@ -6,7 +6,11 @@
 }
 
 body{
-    background: #040c8e;
+    background: url("../pagina-buraco-negro/img/1166132.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .headline{
@@ -23,14 +27,7 @@ body{
     width: 3rem;
 }
 
-#navbar{
-    width: 100%;
-    background: linear-gradient(to left, #91000f, #42020c);
-    color: black;
-    height: 80px;
-    position: fixed;
-    z-index: 10;
-}
+
 
 
 #navbar-container{
@@ -119,7 +116,7 @@ input{
 
 
 .header{
-    background: #040c8e;
+    background: rgba(51, 54, 69, 0.8);
     width: 100%;
     position: relative;
     top: 5rem;
@@ -163,7 +160,7 @@ input{
 }
 
 .pginicial{
-    background: #040c8e;
+
     height: 88.7vh;
     width: 100%;
     margin-top: 3.2%;
@@ -321,11 +318,12 @@ input{
     margin-right: 5%;
     height: 40vh;
     text-align: center;
+
     
 }
 
 .camisas h2{
-    font-size: 1rem;
+    font-size: 2rem;
     color: white;
    
 }
@@ -438,7 +436,7 @@ input{
 }
 
 .item2:hover{
-    background: #dc052d;
+    background: #000;
     box-shadow: 0 0 10px #fff, 0 0 15px #fff, 0 0 30px #fff;
     color: white;
     border-color: white;
@@ -603,15 +601,15 @@ input{
 }
 
 #city{
-    background: #97c1e7;
-    border: 2px solid #6caddf;
+    background: #000;
+    border: 2px solid #FF4500;
     transition: all .3s ease;
 }
 
 #city:hover{
-    background: #6caddf;
-    box-shadow: 0 0 10px #6caddf, 0 0 15px #6caddf, 0 0 30px #6caddf;
-    border-color:#6caddf;
+    background: #000;
+    box-shadow: 0 0 10px #FF4500, 0 0 15px #FF4500, 0 0 30px #FF4500;
+    border-color:#FF4500;
     transition: all .3s ease;
     border-radius: 20px;
     cursor: pointer;
@@ -619,15 +617,15 @@ input{
 }
 
 #united{
-    background: #ffe500;
-    border: 2px solid #d8040b;
+    background: #000;
+    border: 2px solid #b7caf8;
     transition: all .3s ease;
 }
 
 #united:hover{
-    background: #d8040b;
-    box-shadow: 0 0 10px #d8040b, 0 0 15px #d8040b, 0 0 30px #d8040b;
-    border-color:#000;
+    background: #000;
+    box-shadow: 0 0 10px #b7caf8, 0 0 15px #b7caf8, 0 0 30px #b7caf8;
+    border-color:#b7caf8;
     transition: all .3s ease;
     border-radius: 20px;
     cursor: pointer;
@@ -635,15 +633,15 @@ input{
 }
 
 #tottenham{
-    background: white;
+    background: #000;
     border: 2px solid #132257;
     transition: all .3s ease;
 }
 
 #tottenham:hover{
-    background: white;
-    box-shadow: 0 0 10px white, 0 0 15px white, 0 0 30px white;
-    border-color:white;
+    background: #000;
+    box-shadow: 0 0 10px #132257, 0 0 15px #132257, 0 0 30px #132257;
+    border-color:#132257;
     transition: all .3s ease;
     border-radius: 20px;
     cursor: pointer;
@@ -651,15 +649,15 @@ input{
 }
 
 #arsenal{
-    background: #ee1a2f;
-    border: 2px solid white;
+    background: #000;
+    border: 2px solid #eeb91a;
     transition: all .3s ease;
 }
 
 #arsenal:hover{
-    background: #ee1a2f;
-    box-shadow: 0 0 10px #ee1a2f, 0 0 15px #ee1a2f, 0 0 30px #ee1a2f;
-    border-color:#ee1a2f;
+    background: #000;
+    box-shadow: 0 0 10px #eeb91a, 0 0 15px #eeb91a, 0 0 30px #eeb91a;
+    border-color:#eeb91a;
     transition: all .3s ease;
     border-radius: 20px;
     cursor: pointer;
@@ -667,15 +665,15 @@ input{
 }
 
 #real{
-    background: #fcb424;
-    border: 2px solid white;
+    background: #000;
+    border: 2px solid #fc2468;
     transition: all .3s ease;
 }
 
 #real:hover{
-    background: white;
-    box-shadow: 0 0 10px #fcb424, 0 0 15px #fcb424, 0 0 30px #fcb424;
-    border-color:#fcb424;
+    background: #000;
+    box-shadow: 0 0 10px #fc2468, 0 0 15px #fc2468, 0 0 30px #fc2468;
+    border-color:#fc2468;
     transition: all .3s ease;
     border-radius: 20px;
     cursor: pointer;
@@ -751,15 +749,15 @@ input{
 }
 
 #liverpool{
-    background: rgb(19, 19, 19);
-    border: 2px solid #d1202a;
+    background: #000;
+    border: 2px solid #370962;
     transition: all .3s ease;
 }
 
 #liverpool:hover{
     background: black;
-    box-shadow: 0 0 10px #d1202a, 0 0 15px #d1202a, 0 0 30px #d1202a;
-    border-color:#d1202a;
+    box-shadow: 0 0 10px #370962, 0 0 15px #370962, 0 0 30px #370962;
+    border-color:#370962;
     transition: all .3s ease;
     border-radius: 20px;
     cursor: pointer;
