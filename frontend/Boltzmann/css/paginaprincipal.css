@@ -28,10 +28,9 @@ input{
 
 #produto{
     width: 100%;
-    padding: 140px;
-    background: rgba(19, 21, 32, 0.8);
+    background: rgba(19, 21, 32, 0.6);
     color: #fff;
-    height: 100vh;
+    height: 50vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -75,7 +74,7 @@ input{
 }
 
 .big-logo{
-    width: 60%;
+    width: 70%;
 }
 
 .barra{
@@ -115,8 +114,6 @@ input{
 }
 
 #showcase{
-    background: url('../img/1114912.jpg') no-repeat center center/cover;
-    background-color: rgba(0,0,0,0.5);
     background-blend-mode: color;
 }
 
@@ -129,25 +126,25 @@ input{
 }
 
 #showcase2{
-    background: url('../img/buraco-negro.jpg') no-repeat center center/cover;
+    background: url('../img/1114912.jpg') no-repeat center center/cover;
     background-color: rgba(0,0,0,0.5);
     background-blend-mode: color;
 }
 
 #showcase3{
-    background: url('../img/359757.jpg') no-repeat center center/cover;
+    background: url('../img/buraco-negro.jpg') no-repeat center center/cover;
     background-color: rgba(0,0,0,0.5);
     background-blend-mode: color;
 }
 
 #showcase4{
-    background: url('../img/astronomos.jpg') no-repeat center center/cover;
+    background: url('../img/359757.jpg') no-repeat center center/cover;
     background-color: rgba(0,0,0,0.5);
     background-blend-mode: color;
 }
 
 #showcase5{
-    background: url('../img/buraco-negro.jpg') no-repeat center center/cover;
+    background: url('../img/astronomos.jpg') no-repeat center center/cover;
     background-color: rgba(0,0,0,0.5);
     background-blend-mode: color;
 }

@@ -6,23 +6,25 @@
 
 body{
     overflow-x: hidden;
-    background: linear-gradient(to left, #91000f, #42020c);
+    background: linear-gradient(to left, #A6998A, #011526);
 }
 
 h1{
-    height: 10vh;
+    height: 8vh;
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-family: 'Times New Roman', Times, serif;
-    background: linear-gradient(to left, #91000f, #42020c);
+    color: white;
+    background: linear-gradient(to left, #A6998A, #011526);
 }
 
 .all{
-    background: linear-gradient(to left, #91000f, #42020c);
+    background: linear-gradient(to left, #A6998A, #011526);
     height: 80vh;
     width: 100%;
+    color: white;
 }
 
 .planets{
@@ -349,7 +351,7 @@ h2{
     display: flex;
     align-items: center;
     font-size: 1.2rem;
-    background: #1e3b55;
+    background: #011526;
     padding: 10px;
     margin: 10px 0;
     border-radius: 5px;
@@ -357,9 +359,8 @@ h2{
 
 #devs{
     width: 100%;
-    background: #3686cd;
     padding: 50px;
-    color: #1e3b55;
+    color: #A6998A;
     margin-top: 3%;
 }
 
@@ -369,7 +370,7 @@ h2{
     display: flex;
     align-items: center;
     flex-direction: column;
-    color: #3686cd;
+    color: white;
 }
 
 .dev .dev-image{
@@ -397,7 +398,8 @@ h2{
     position: relative;
     display: inline-block;
     padding: 15px 30px;
-    color: #000;
+    color: white;
+    font-weight: bold;
     letter-spacing: 4px;
     text-decoration: none;
     overflow: hidden;
@@ -405,9 +407,9 @@ h2{
 }
 
 .custom:hover{
-    color: #42020c;
-    background: #91000f;
-    box-shadow: 0 0 10px #91000f, 0 0 40px #91000f, 0 0 80px #91000f;
+    color: #A6998A;
+    background: #013440;
+    box-shadow: 0 0 10px #011526, 0 0 40px #011526, 0 0 80px #011526;
     transition-delay: 1s;
 }
 
@@ -421,7 +423,7 @@ h2{
     left: -100%;
     width: 100%;
     height: 2px;
-    background: linear-gradient(90deg, transparent, #91000f);
+    background: linear-gradient(90deg, transparent, #011526);
 }
 
 .custom:hover span:nth-child(1){
@@ -434,7 +436,7 @@ h2{
     right: -100%;
     width: 100%;
     height: 2px;
-    background: linear-gradient(270deg, transparent, #91000f);
+    background: linear-gradient(270deg, transparent, #011526);
 }
 
 .custom:hover span:nth-child(3){
@@ -448,7 +450,7 @@ h2{
     right: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(180deg, transparent, #91000f);
+    background: linear-gradient(180deg, transparent, #011526);
 }
 
 .custom:hover span:nth-child(2){
@@ -462,7 +464,7 @@ h2{
     left: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(360deg, transparent, #91000f);
+    background: linear-gradient(360deg, transparent, #011526);
 }
 
 .custom:hover span:nth-child(4){
