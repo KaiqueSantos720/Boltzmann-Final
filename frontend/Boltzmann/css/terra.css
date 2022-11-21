@@ -106,7 +106,6 @@ h1{
 .dev .dev-image{
     width: 15rem;
     margin: 15px;
-    border-radius: 50%;
 }
 
 h2{
@@ -123,11 +122,9 @@ p{
 }
 
 .bgpalido{
-    height: 20vh;
-    width: 42rem;
     text-align: end;
-    margin-top: 75vh;
-    margin-left: 135vh;
+    margin: auto;
+    margin-top: 55%;
 }
 
 @media screen and (max-width:1250px){

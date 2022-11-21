@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     font-size: 1.2rem;
-    background: #1e3b55;
+    background: #A6998A;
     padding: 10px;
     margin: 10px 0;
     border-radius: 5px;
@@ -57,7 +57,7 @@
 }
 
 .planeta1 > div{
-    background: url("/img/superterra-01.png");
+    background: url("../img/superterra-01.png");
 }
 
 .planeta2{
@@ -65,7 +65,7 @@
 }
 
 .planeta2 > div{
-    background: url("/img/st2.png");
+    background: url("../img/st2.png");
 }
 
 .planeta3{
@@ -73,7 +73,7 @@
 }
 
 .planeta3 > div{
-    background: url("/img/st3.png");
+    background: url("../img/st3.png");
 }
 
 .planeta4{
@@ -81,7 +81,7 @@
 }
 
 .planeta4 > div{
-    background: url("/img/st4.png");
+    background: url("../img/st4.png");
 }
 
 .planeta5{
@@ -89,7 +89,7 @@
 }
 
 .planeta5 > div{
-    background: url("/img/st5.png");
+    background: url("../img/st5.png");
 }
 
 .planeta6{
@@ -97,7 +97,7 @@
 }
 
 .planeta6 > div{
-    background: url("/img/st6.png");
+    background: url("../img/st6.png");
 }
 
 .planeta7{
@@ -105,7 +105,7 @@
 }
 
 .planeta7 > div{
-    background: url("/img/st7.png");
+    background: url("../img/st7.png");
 }
 
 .planeta8{
@@ -113,7 +113,7 @@
 }
 
 .planeta8 > div{
-    background: url("/img/st8.png");
+    background: url("../img/st8.png");
 }
 
 .planeta9{
@@ -121,7 +121,7 @@
 }
 
 .planeta9 > div{
-    background: url("/img/st9.png");
+    background: url("../img/st9.png");
 }
 
 .planeta10{
@@ -129,7 +129,7 @@
 }
 
 .planeta10 > div{
-    background: url("/img/st10.png");
+    background: url("../img/st10.png");
 }
 
 @keyframes spin {
@@ -159,7 +159,7 @@
 }
 
 body{
-    background: linear-gradient(to left, #91000f, #42020c);
+    background: linear-gradient(to left, #011526, #A6998A);
 }
 
 html{

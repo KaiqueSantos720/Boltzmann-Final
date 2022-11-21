@@ -28,9 +28,10 @@ input{
 
 #produto{
     width: 100%;
-    background: rgba(19, 21, 32, 0.6);
+    padding: 5%;
+    background: rgba(19, 21, 32, 0.8);
     color: #fff;
-    height: 50vh;
+    height: 70%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -52,7 +53,7 @@ input{
 #itens .item{
     display: flex;
     padding: 10px;
-    margin: 15px 0;
+    margin: 10% 0;
     font-size: 1.2rem;
     text-align: justify;
 }
@@ -74,7 +75,7 @@ input{
 }
 
 .big-logo{
-    width: 70%;
+    width: 60%;
 }
 
 .barra{
@@ -114,6 +115,7 @@ input{
 }
 
 #showcase{
+
     background-blend-mode: color;
 }
 
