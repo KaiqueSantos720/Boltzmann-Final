@@ -1,8 +1,7 @@
 .dev{
     display: flex;
     align-items: center;
-    font-size: 1.2rem;
-    background: #A6998A;
+    background: #636a83;
     padding: 10px;
     margin: 10px 0;
     border-radius: 5px;
@@ -21,18 +20,15 @@
 .dev .dev-image{
     width: 15rem;
     margin: 15px;
-    border-radius: 50%;
+    
 }
 
 #planet {
-    width: 50rem;
-    height: 50.5rem;
-    position: relative;
-    margin: auto;
-    overflow: hidden;
+    width: 30rem;
+    height: 33rem;
+    margin-top: 2%;
     border-radius: 50%;
-    transition: all 1s ease-in-out;
-    margin-top: 5%;
+
 }
   
 #planet:after {
@@ -46,97 +42,49 @@
 }
   
 #planet > div {
-    width: 200%;
+    width: 110%;
     height: 100%;
-    animation: spin 10s linear alternate infinite;
     background-size: cover;
 }
 
-.planeta1{
-    box-shadow: 0 0 10px #875f53, 0 0 15px #875f53, 0 0 30px #875f53;
-}
+
 
 .planeta1 > div{
-    background: url("../img/superterra-01.png");
-}
-
-.planeta2{
-    box-shadow: 0 0 10px #690c03, 0 0 15px #690c03, 0 0 30px #690c03;
+    background: url("../img/planeta\ \(1\).png");
 }
 
 .planeta2 > div{
-    background: url("../img/st2.png");
+    background: url("../img/planeta\ \(2\).png");
 }
 
-.planeta3{
-    box-shadow: 0 0 10px #c88e81, 0 0 15px #c88e81, 0 0 30px #c88e81;
-}
 
 .planeta3 > div{
-    background: url("../img/st3.png");
+    background: url("../img/saturno.png");
 }
 
-.planeta4{
-    box-shadow: 0 0 10px #a35a15, 0 0 15px #a35a15, 0 0 30px #a35a15;
-}
 
 .planeta4 > div{
-    background: url("../img/st4.png");
+    background: url("../img/netuno\ \(1\).png");
 }
 
-.planeta5{
-    box-shadow: 0 0 10px #6b644d, 0 0 15px #6b644d, 0 0 30px #6b644d;
-}
+
 
 .planeta5 > div{
-    background: url("../img/st5.png");
+    background: url("../img/marte.png");
 }
 
-.planeta6{
-    box-shadow: 0 0 10px #e27308, 0 0 15px #e27308, 0 0 30px #e27308;
-}
+
 
 .planeta6 > div{
-    background: url("../img/st6.png");
+    background: url("../img/marte\ \(1\).png");
 }
 
-.planeta7{
-    box-shadow: 0 0 10px #ba5187, 0 0 15px #ba5187, 0 0 30px #ba5187;
-}
+
 
 .planeta7 > div{
-    background: url("../img/st7.png");
+    background: url("../img/terra.png");
 }
 
-.planeta8{
-    box-shadow: 0 0 10px #c99fa4, 0 0 15px #c99fa4, 0 0 30px #c99fa4;
-}
-
-.planeta8 > div{
-    background: url("../img/st8.png");
-}
-
-.planeta9{
-    box-shadow: 0 0 10px #7bc5dc, 0 0 15px #7bc5dc, 0 0 30px #7bc5dc;
-}
-
-.planeta9 > div{
-    background: url("../img/st9.png");
-}
-
-.planeta10{
-    box-shadow: 0 0 10px #2f3da4, 0 0 15px #2f3da4, 0 0 30px #2f3da4;
-}
-
-.planeta10 > div{
-    background: url("../img/st10.png");
-}
-
-@keyframes spin {
-    to {
-      transform: translateX(-50%);
-    }
-}
 
 .pl1{
     width: 100%;
@@ -152,6 +100,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    
 }
 
 .content{
@@ -159,7 +108,11 @@
 }
 
 body{
-    background: linear-gradient(to left, #011526, #A6998A);
+    background: url("../img/bgplanetahab.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 html{
@@ -178,8 +131,9 @@ html{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     background: #fff;
-    opacity: 0.7;
+    opacity: 0.9;
 }
+
 
 .opcoes h1{
     margin: auto;
