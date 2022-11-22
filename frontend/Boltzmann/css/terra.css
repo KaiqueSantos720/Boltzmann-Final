@@ -5,7 +5,7 @@
 }
 
 body{
-    background: url("../img/terra.webp");
+    background: url("../img/488171.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -29,42 +29,28 @@ h1{
 
 
 .earth {
-    width: 30rem;
+    width: 32rem;
     height: 32rem;
     position: relative;
     margin: auto;
     overflow: hidden;
-    border-radius: 50%;
+    
     margin-top: 2.5%;
     z-index: -10;
-    box-shadow: 0 0 10px #000, 0 0 15px #000, 0 0 30px #000;
-
+    
 }
   
-.earth:after {
-    position: absolute;
-    content: "";
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    box-shadow: -20px -20px 50px 2px #000 inset;
-    border-radius: 50%;
-}
+
   
 .earth > div {
-    width: 200%;
+    width: 100%;
     height: 100%;
-    animation: spin 10s linear alternate infinite;
-    background: url("../img/terra2.jpg");
+    
+    background: url("../img/planeta-terra\ \(1\).png");
     background-size: cover;
 }
 
-@keyframes spin {
-    to {
-      transform: translateX(-50%);
-    }
-}
+
 
 .headline{
     font-size: 2.2rem;
@@ -124,7 +110,7 @@ p{
 .bgpalido{
     text-align: end;
     margin: auto;
-    margin-top: 55%;
+    margin-top: 2%;
 }
 
 @media screen and (max-width:1250px){
