@@ -10,7 +10,7 @@ const Footer = () => {
             </div>
             <div className="icons">
                 <ul className='ul'>
-                    <li ><Link><i aria-hidden="true" className="fa fa-facebook"></i></Link></li>
+                    <li ><Link><i aria-hidden="true" className="fa fa-twitter"></i></Link></li>
                     <li><Link><i aria-hidden="true" className="fa fa-instagram"></i></Link></li>
                 </ul>
             </div>

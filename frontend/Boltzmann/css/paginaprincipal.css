@@ -47,7 +47,7 @@ input{
 }
 
 #itens{
-    width: 50%;
+    width: 40%;
 }
 
 #itens .item{
@@ -454,9 +454,27 @@ footer i{
 .icons{
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    width: 100%;
+    width: 30%;
     display: flex;
     justify-content: center;
+}
+
+.tt{
+    width: 20vh;
+    width: 20vh;
+}
+
+.ins{
+    width: 20vh;
+    width: 20vh;
+}
+
+.tt{
+    width: 10vh;
+}
+
+.ins{
+    width: 10vh;
 }
 
 .custom{
@@ -627,6 +645,7 @@ ul li:nth-child(3):before{
     #itens{
         width: 100%;
         margin: 0;
+        padding-bottom: 20rem;
         display: flex;
         justify-content: center;
     }

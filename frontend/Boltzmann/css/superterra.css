@@ -6,7 +6,11 @@
 
 body{
     overflow-x: hidden;
-    background: linear-gradient(to left, #A6998A, #011526);
+    background: url("../img/984617.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 h1{
@@ -17,11 +21,11 @@ h1{
     font-size: 3.5rem;
     font-family: 'Times New Roman', Times, serif;
     color: white;
-    background: linear-gradient(to left, #A6998A, #011526);
+    
 }
 
 .all{
-    background: linear-gradient(to left, #A6998A, #011526);
+    
     height: 80vh;
     width: 100%;
     color: white;
@@ -47,133 +51,70 @@ h1{
 
 #earth {
     width: 5rem;
-    height: 5.5rem;
+    height: 5rem;
     position: relative;
     margin: auto;
     overflow: hidden;
-    border-radius: 50%;
     cursor: pointer;
     transition: all 1s ease-in-out;
 }
   
-#earth:after {
-    position: absolute;
-    content: "";
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    border-radius: 50%;
-}
+
   
 #earth > div {
-    width: 200%;
+    width: 100%;
     height: 100%;
-    animation: spin 10s linear alternate infinite;
     background-size: cover;
 }
 
-.st1{
-    box-shadow: 0 0 10px #875f53, 0 0 15px #875f53, 0 0 30px #875f53;
-}
+
 
 .st1 > div{
-    background: url(../img/superterra-01.png); 
+    background: url(../img/mercurio.png); 
 }
 
-.st2{
-    box-shadow: 0 0 10px #690c03, 0 0 15px #690c03, 0 0 30px #690c03;
-}
 
 .st2 > div{
-    background: url("../img/st2.png");
+    background: url("../img/marte\ \(2\).png");
 }
 
-.st3{
-    box-shadow: 0 0 10px #c88e81, 0 0 15px #c88e81, 0 0 30px #c88e81;
-}
+
 
 .st3 > div{
-    background: url("../img/st3.png");
+    background: url("../img/planeta\ \(4\).png");
 }
 
-.st4{
-    box-shadow: 0 0 10px #a35a15, 0 0 15px #a35a15, 0 0 30px #a35a15;
-}
+
 
 .st4 > div{
-    background: url("../img/st4.png");
+    background: url("../img/planeta\ \(5\).png");
 }
 
-.st5{
-    box-shadow: 0 0 10px #6b644d, 0 0 15px #6b644d, 0 0 30px #6b644d;
-}
+
 
 .st5 > div{
-    background: url("../img/st5.png");
+    background: url("../img/planeta-terra\ \(2\).png");
 }
 
-.st6{
-    box-shadow: 0 0 10px #e27308, 0 0 15px #e27308, 0 0 30px #e27308;
-}
 
 .st6 > div{
-    background: url("../img/st6.png");
+    background: url("../img/planetas.png");
 }
 
-.st7{
-    box-shadow: 0 0 10px #ba5187, 0 0 15px #ba5187, 0 0 30px #ba5187;
-}
+
 
 .st7 > div{
-    background: url("../img/st7.png");
+    background: url("../img/planeta-terra\ \(3\).png");
 }
 
-.st8{
-    box-shadow: 0 0 10px #c99fa4, 0 0 15px #c99fa4, 0 0 30px #c99fa4;
-}
+
 
 .st8 > div{
-    background: url("../img/st8.png");
+    background: url("../img/planeta\ \(6\).png");
 }
 
-.st9{
-    box-shadow: 0 0 10px #7bc5dc, 0 0 15px #7bc5dc, 0 0 30px #7bc5dc;
-}
 
-.st9 > div{
-    background: url("../img/st9.png");
-}
 
-.st10{
-    box-shadow: 0 0 10px #2f3da4, 0 0 15px #2f3da4, 0 0 30px #2f3da4;
-}
-
-.st10 > div{
-    background: url("../img/st10.png");
-}
-
-.st11{
-    box-shadow: 0 0 10px #205c9c, 0 0 15px #205c9c, 0 0 30px #205c9c;
-}
-
-.st11 > div{
-    background: url("../img/st11.png");
-}
-
-.st12{
-    box-shadow: 0 0 10px #55a18d, 0 0 15px #55a18d, 0 0 30px #55a18d;
-}
-
-.st12 > div{
-    background: url("../img/st12.png");
-}
-
-@keyframes spin {
-    to {
-      transform: translateX(-50%);
-    }
-}
 
 
 #content{
@@ -236,107 +177,62 @@ h2{
 }
   
 #planet > div {
-    width: 200%;
+    width: 100%;
     height: 100%;
     animation: spin 10s linear alternate infinite;
     background-size: cover;
 }
 
-.planeta1{
-    box-shadow: 0 0 10px #875f53, 0 0 15px #875f53, 0 0 30px #875f53;
-}
 
 .planeta1 > div{
-    background: url("../img/superterra-01.png");
+    background: url("../img/mercurio.png");
 }
 
-.planeta2{
-    box-shadow: 0 0 10px #690c03, 0 0 15px #690c03, 0 0 30px #690c03;
-}
+
 
 .planeta2 > div{
-    background: url("../img/st2.png");
+    background: url("../img/marte\ \(2\).png");
 }
 
-.planeta3{
-    box-shadow: 0 0 10px #c88e81, 0 0 15px #c88e81, 0 0 30px #c88e81;
-}
+
 
 .planeta3 > div{
-    background: url("../img/st3.png");
+    background: url("../img/planeta\ \(4\).png");
 }
 
-.planeta4{
-    box-shadow: 0 0 10px #a35a15, 0 0 15px #a35a15, 0 0 30px #a35a15;
-}
+
 
 .planeta4 > div{
-    background: url("../img/st4.png");
+    background: url("../img/planeta\ \(5\).png");
 }
 
-.planeta5{
-    box-shadow: 0 0 10px #6b644d, 0 0 15px #6b644d, 0 0 30px #6b644d;
-}
 
 .planeta5 > div{
-    background: url("../img/st5.png");
+    background: url("../img/planeta-terra\ \(2\).png");
 }
 
-.planeta6{
-    box-shadow: 0 0 10px #e27308, 0 0 15px #e27308, 0 0 30px #e27308;
-}
+
 
 .planeta6 > div{
-    background: url("../img/st6.png");
+    background: url("../img/planetas.png");
 }
 
-.planeta7{
-    box-shadow: 0 0 10px #ba5187, 0 0 15px #ba5187, 0 0 30px #ba5187;
-}
+
 
 .planeta7 > div{
-    background: url("../img/st7.png");
+    background: url("../img/planeta-terra\ \(3\).png");
 }
 
-.planeta8{
-    box-shadow: 0 0 10px #c99fa4, 0 0 15px #c99fa4, 0 0 30px #c99fa4;
-}
 
 .planeta8 > div{
-    background: url("../img/st8.png");
+    background: url("../img/planeta\ \(6\).png");
 }
 
-.planeta9{
-    box-shadow: 0 0 10px #7bc5dc, 0 0 15px #7bc5dc, 0 0 30px #7bc5dc;
-}
 
-.planeta9 > div{
-    background: url("../img/st9.png");
-}
 
-.planeta10{
-    box-shadow: 0 0 10px #2f3da4, 0 0 15px #2f3da4, 0 0 30px #2f3da4;
-}
 
-.planeta10 > div{
-    background: url("../img/st10.png");
-}
 
-.planeta11{
-    box-shadow: 0 0 10px #205c9c, 0 0 15px #205c9c, 0 0 30px #205c9c;
-}
 
-.planeta11 > div{
-    background: url("../img/st11.png");
-}
-
-.planeta12{
-    box-shadow: 0 0 10px #55a18d, 0 0 15px #55a18d, 0 0 30px #55a18d;
-}
-
-.planeta12 > div{
-    background: url("../img/st12.png");
-}
 
 .caracteristicas{
     display: none;
@@ -407,9 +303,9 @@ h2{
 }
 
 .custom:hover{
-    color: #A6998A;
-    background: #013440;
-    box-shadow: 0 0 10px #011526, 0 0 40px #011526, 0 0 80px #011526;
+    color: #e380f0;
+    background: #001519;
+    box-shadow: 0 0 10px #000000, 0 0 40px #000000, 0 0 80px #000000;
     transition-delay: 1s;
 }
 
