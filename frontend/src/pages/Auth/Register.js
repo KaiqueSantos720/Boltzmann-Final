@@ -37,7 +37,7 @@ const Register = () => {
 
     return (
         <div id='register'>
-            <h2>React Images</h2>
+            <h2>Boltzmann</h2>
             <p className="subtitle">
                 Cadastre-se para postar fotos
             </p>

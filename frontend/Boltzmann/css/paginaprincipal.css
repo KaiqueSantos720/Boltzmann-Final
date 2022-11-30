@@ -393,13 +393,27 @@ label{
     display: block;
     padding: 1rem;
     background: #131520;
-    color: #000;
+    color: #fff;
     font: inherit;
     text-transform: uppercase;
     border: none;
     border-radius: 10px;
     cursor: pointer;
     transition: 0.2s;
+}
+
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #131520;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color:#2F344F;
+    border-radius: 20px;
+    border: 3px solid  #131520;
 }
 
 .form button:hover, .form button:focus{

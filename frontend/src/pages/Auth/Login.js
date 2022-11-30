@@ -30,7 +30,7 @@ const Login = () => {
 
   return (
     <div id='login'>
-      <h2>React Images</h2>
+      <h2>Boltzmann</h2>
       <p className="subtitle">Faça o login para postar fotos</p>
       <form onSubmit={handleSubmit} >
         <input value={email || ""} onChange={((e) => setEmail(e.target.value))} type="email" placeholder='Email' />

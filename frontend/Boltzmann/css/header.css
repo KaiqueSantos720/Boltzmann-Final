@@ -2,7 +2,25 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
+
+
+
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #131520;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color:#2F344F;
+    border-radius: 20px;
+    border: 3px solid  #131520;
+}
+
 
 #navbar{
     width: 100%;

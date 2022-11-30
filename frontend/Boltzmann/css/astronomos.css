@@ -140,7 +140,6 @@ h1{
     height: 90%;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgba(0, 99, 99, 0.7);
 }
 
 .biografia{
@@ -157,6 +156,10 @@ h1{
     flex-direction: column;
 }
 
+.content p{
+    color: #dbc8cb;
+}
+
 .text{
     display: flex;
     flex-direction: column;
@@ -165,6 +168,7 @@ h1{
     width: 40%;
     padding-top: 3rem;
     padding-bottom: 3rem;
+    color: rgb(224, 208, 208);
 }
 
 .image{

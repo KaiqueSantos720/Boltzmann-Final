@@ -12,11 +12,11 @@
     flex-direction: column;
     color: #fff;
     border-top: 2px solid #363636;
-    padding-top: 2rem;
+    padding-top: 4rem;
 }
 
 #footer h3{
-    padding-top: 4rem;
+
     font-size: 2rem;
 }
 
@@ -36,3 +36,4 @@
 .icons{
     width: 40%;
 }
+
